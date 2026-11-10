@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "Buffet à volonté, grill et sushis près d'Amiens, Boves | Au Comptoir de Longueau",
+    "description": "Grand buffet à volonté à Boves, à deux pas de Longueau et d'Amiens : grillades minute, sushis, fruits de mer, entrées et desserts. Midi et soir, en famille ou en groupe. Réservez votre table.",
+    "ogAlt": "Au Comptoir de Longueau, buffet à volonté à Boves"
+  },
+  "intro": { "skip": "Passer" },
+  "nav": {
+    "buffet": "Le buffet",
+    "formules": "Formules et prix",
+    "groups": "Groupes",
+    "book": "Réserver",
+    "infos": "Infos",
+    "giftCard": "Bon cadeau",
+    "bookCta": "Réserver une table",
+    "call": "Appeler",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "home": "Au Comptoir de Longueau, accueil",
+    "lang": "Langue",
+    "skip": "Aller au contenu",
+    "facebook": "Au Comptoir de Longueau sur Facebook"
+  },
+  "announce": { "close": "Fermer l'annonce" },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé",
+    "until": "jusqu'à {time}",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "hero": {
+    "eyebrow": "Buffet à volonté · Grill · Sushis · Fruits de mer · Boves",
+    "title": "Tout le choix, à volonté.",
+    "lead": "Grillades saisies devant vous, sushis, fruits de mer, entrées et desserts : un grand buffet où chacun compose son assiette, et y retourne autant qu'il veut.",
+    "ctaBook": "Réserver une table",
+    "ctaPrices": "Voir les prix",
+    "rating": "{value}/5 sur Google",
+    "ratingCount": "plus de {count} avis",
+    "photoSoon": "Photo de la salle et du buffet à venir"
+  },
+  "bar": {
+    "label": "Réserver en trois clics",
+    "date": "Date",
+    "anyDate": "Choisir",
+    "service": "Service",
+    "guests": "Personnes",
+    "submit": "Continuer"
+  },
+  "tiles": {
+    "title": "Au buffet aujourd'hui",
+    "items": {
+      "grill": "Le grill",
+      "sushis": "Les sushis",
+      "fruitsDeMer": "Fruits de mer",
+      "entrees": "Les entrées",
+      "platsChauds": "Plats chauds",
+      "desserts": "Les desserts"
+    }
+  },
+  "services": {
+    "title": "Les essentiels",
+    "items": {
+      "volonte": { "title": "À volonté", "text": "Un prix par personne, et vous vous resservez autant que vous voulez." },
+      "parking": { "title": "Grand parking", "text": "On se gare sans chercher, juste devant la porte." },
+      "familles": { "title": "Familles et groupes", "text": "Grandes tablées, anniversaires, sorties d'équipe : on vous installe." },
+      "reservation": { "title": "Sur réservation", "text": "En ligne ou par téléphone, conseillée le soir et le week-end." }
+    }
+  },
+  "formules": {
+    "eyebrow": "Formules et prix",
+    "title": "Un prix, tout le buffet",
+    "lead": "Le même grand buffet à chaque service. Le prix dépend du moment de la semaine, et les enfants paient selon leur âge.",
+    "perPerson": "par personne",
+    "from": "à partir de",
+    "onRequest": "Tarif sur demande",
+    "popular": "Le plus demandé",
+    "note": "Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours de mise à jour avec le restaurant.",
+    "cta": "Réserver pour ce service",
+    "seeAll": "Formules et prix en détail",
+    "items": {
+      "midi": { "name": "Midi en semaine", "when": "Du lundi au vendredi, 12 h – 14 h 30", "points": ["Tout le buffet : entrées, grill, sushis, desserts", "Parfait pour la pause déjeuner", "Service rapide, on peut repartir à l'heure"] },
+      "soir": { "name": "Le soir", "when": "Tous les soirs, à partir de 19 h", "points": ["Tout le buffet, fruits de mer compris", "Le grill tourne jusqu'à la fermeture", "Idéal en famille ou entre amis"] },
+      "weekend": { "name": "Week-end et jours fériés", "when": "Samedi, dimanche et jours fériés, midi et soir", "points": ["Le buffet dans sa version la plus large", "Réservation fortement conseillée", "Anniversaires et grandes tablées bienvenus"] },
+      "enfants": { "name": "Enfants", "when": "Prix selon l'âge, midi et soir", "points": ["Le même buffet que les grands", "Les desserts en libre-service", "Chaises hautes sur demande"] }
+    }
+  },
+  "buffet": {
+    "eyebrow": "Le buffet",
+    "title": "Quatre univers, une seule assiette",
+    "lead": "On fait le tour, on goûte un peu de tout, on revient sur ce qu'on a préféré. Voici ce qui vous attend.",
+    "universes": {
+      "grill": { "title": "Le grill", "text": "Viandes, brochettes et poissons cuits à la minute sur la plancha. Vous choisissez, on saisit, vous repartez avec une assiette chaude." },
+      "sushis": { "title": "Les sushis", "text": "Makis, california, sushis et sashimis, à côté des nouilles sautées et des spécialités asiatiques." },
+      "fruitsDeMer": { "title": "Les fruits de mer", "text": "Crevettes, moules et coquillages, froids ou cuisinés, pour ceux qui aiment commencer par la mer." },
+      "desserts": { "title": "Les desserts", "text": "Gâteaux, fruits, crèmes et glaces : le comptoir préféré des enfants, et souvent des parents." }
+    },
+    "also": "Et aussi : un grand comptoir d'entrées, crudités et salades, et des plats chauds qui changent selon les jours."
+  },
+  "blocks": {
+    "grill": { "eyebrow": "Le grill en direct", "title": "Cuit devant vous, servi brûlant", "text": "Au grill, rien n'attend sous une lampe. Vous montrez ce qui vous fait envie, le cuisinier le saisit sur la plancha et vous le tend quelques minutes plus tard.", "cta": "Voir le buffet" },
+    "groups": { "eyebrow": "Anniversaires et groupes", "title": "Les grandes tablées, c'est notre quotidien", "text": "Anniversaire, repas de famille, fin d'année avec les collègues : la salle est grande et on prépare votre table à l'avance. Prévenez-nous, on s'occupe du reste.", "cta": "Réserver" },
+    "kids": { "eyebrow": "Les enfants", "title": "Chacun remplit son assiette", "text": "Les enfants adorent choisir eux-mêmes, du grill aux desserts. Un tarif adapté à leur âge, et des chaises hautes pour les plus petits.", "cta": "Voir les prix" }
+  },
+  "reviews": {
+    "eyebrow": "Vos avis",
+    "title": "Ce qu'en disent nos clients",
+    "count": "sur plus de {count} avis Google",
+    "checked": "Note relevée le {date}",
+    "themesTitle": "Ce que nos clients citent le plus souvent",
+    "themes": ["Le choix", "Les entrées", "Les sushis", "Les fruits de mer", "Le buffet à volonté", "L'ambiance cantine conviviale"],
+    "cta": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Nous trouver",
+    "address": "Adresse",
+    "directions": "Itinéraire",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "hoursNote": "Les jours fériés et les fermetures exceptionnelles sont annoncés en haut du site.",
+    "access": "Accès",
+    "accessText": "À Boves, dans la zone de Longueau, à quelques minutes d'Amiens en voiture.",
+    "parking": "Stationnement",
+    "parkingText": "Grand parking gratuit devant le restaurant.",
+    "mapTitle": "Carte : Au Comptoir de Longueau, 15 bis rue Michel Strogoff, Boves",
+    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "closed": "Fermé"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de venir",
+    "items": [
+      { "q": "Faut-il réserver ?", "a": "Ce n'est pas obligatoire, mais c'est conseillé le soir et le week-end, et indispensable pour un groupe. Réservez en ligne ou au 09 54 66 98 88." },
+      { "q": "Quels sont vos horaires ?", "a": "Nous servons le midi de 12 h à 14 h 30 et le soir à partir de 19 h. Les horaires du jour et le statut « ouvert / fermé » sont affichés en direct sur cette page." },
+      { "q": "Combien coûte le buffet pour un enfant ?", "a": "Les enfants ont un tarif réduit, calculé selon leur âge. Le détail est dans la rubrique Formules et prix." },
+      { "q": "Peut-on venir à 15 ou 20 pour un anniversaire ?", "a": "Oui, c'est même une habitude de la maison. Indiquez l'occasion et le nombre de personnes dans le formulaire, nous vous rappelons pour organiser la table." },
+      { "q": "Quels moyens de paiement acceptez-vous ?", "a": "Carte bancaire et espèces. Pour les titres-restaurant et les Chèques-Vacances, demandez-nous à l'accueil ou au téléphone." },
+      { "q": "Je suis allergique, comment faire ?", "a": "Parlez-en à l'équipe en arrivant : nous vous indiquons les plats concernés. La liste des allergènes est disponible sur demande." }
+    ]
+  },
+  "book": {
+    "eyebrow": "Réserver",
+    "title": "Réservez votre table",
+    "lead": "Choisissez le jour, le service et l'heure d'arrivée. Nous vous confirmons par e-mail ou par téléphone. Pour ce soir ou un grand groupe, le plus simple reste de nous appeler.",
+    "date": "Date",
+    "chooseDate": "Choisir une date",
+    "service": "Service",
+    "services": { "midi": "Midi", "soir": "Soir" },
+    "time": "Heure d'arrivée",
+    "chooseTime": "Choisir l'heure",
+    "noTimes": "Plus de créneau pour ce service ce jour-là. Essayez l'autre service ou un autre jour.",
+    "noService": "Pas de service ce jour-là",
+    "adults": "Adultes",
+    "children": "Enfants",
+    "childrenHint": "moins de 12 ans",
+    "occasion": "Occasion",
+    "occasions": { "none": "Pas d'occasion particulière", "family": "Repas de famille", "birthday": "Anniversaire", "friends": "Entre amis", "company": "Repas d'entreprise", "other": "Autre" },
+    "message": "Message",
+    "messagePh": "Chaise haute, gâteau d'anniversaire, allergie, table au calme…",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "submit": "Envoyer ma demande",
+    "sending": "Envoi…",
+    "callInstead": "ou appelez-nous :",
+    "privacy": "Vos coordonnées servent uniquement à gérer cette réservation.",
+    "groupHint": "À partir de {n} personnes, nous vous rappelons pour organiser votre table.",
+    "errors": {
+      "date": "Choisissez une date.",
+      "time": "Choisissez une heure d'arrivée.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Indiquez une adresse e-mail valide.",
+      "server": "La demande n'est pas partie. Réessayez ou appelez-nous au 09 54 66 98 88."
+    },
+    "done": {
+      "title": "Merci, votre demande est bien partie",
+      "text": "{name}, nous avons noté une table pour {guests}, {when}.",
+      "mail": "Un récapitulatif vient de vous être envoyé par e-mail. La réservation est confirmée dès notre réponse.",
+      "notSent": "Dernière étape : appelez-nous pour confirmer, la demande en ligne n'est pas encore reliée à notre boîte mail.",
+      "again": "Nouvelle demande"
+    },
+    "mail": {
+      "subject": "Demande de réservation",
+      "title": "Nouvelle demande de réservation",
+      "when": "Quand",
+      "guests": "Personnes",
+      "adult": "adulte",
+      "adults": "adultes",
+      "child": "enfant",
+      "children": "enfants",
+      "occasion": "Occasion",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "lang": "Langue du client",
+      "reply": "Répondez directement à cet e-mail pour confirmer au client.",
+      "confirmSubject": "Votre demande de réservation chez Au Comptoir de Longueau",
+      "confirmIntro": "Bonjour {name}, nous avons bien reçu votre demande :",
+      "confirmOutro": "Nous vous confirmons la table très vite. Pour toute question, appelez-nous au 09 54 66 98 88. À bientôt au Comptoir !"
+    }
+  },
+  "photo": {
+    "soon": "Photo à venir",
+    "subjects": {
+      "hero": "La salle et le buffet",
+      "grill": "Le grill",
+      "grill-direct": "Le cuisinier au grill",
+      "sushis": "Le comptoir des sushis",
+      "fruits-de-mer": "Les fruits de mer",
+      "entrees": "Les entrées",
+      "plats-chauds": "Les plats chauds",
+      "desserts": "Les desserts",
+      "desserts-enfants": "Le coin des desserts",
+      "salle": "La salle",
+      "salle-groupes": "Une grande tablée",
+      "facade": "La façade"
+    }
+  },
+  "alt": {
+    "hero": "La grande salle d'Au Comptoir de Longueau et le buffet",
+    "grill": "Viandes et brochettes saisies sur la plancha du grill",
+    "grill-direct": "Le cuisinier saisit une assiette au grill, devant les clients",
+    "sushis": "Plateaux de sushis et de makis au buffet",
+    "fruits-de-mer": "Crevettes et coquillages au buffet de fruits de mer",
+    "entrees": "Le comptoir des entrées et des salades",
+    "plats-chauds": "Les plats chauds du buffet",
+    "desserts": "Gâteaux, fruits et desserts au buffet",
+    "desserts-enfants": "Le comptoir des desserts et des glaces",
+    "salle": "La salle du restaurant",
+    "salle-groupes": "Une grande table dressée pour un groupe",
+    "facade": "La façade et l'entrée du restaurant"
+  },
+  "footer": {
+    "tagline": "Grand buffet à volonté à Boves, près d'Amiens : grill, sushis, fruits de mer, entrées et desserts.",
+    "explore": "Découvrir",
+    "legal": "Mentions légales",
+    "rights": "© {year} Au Comptoir de Longueau"
+  },
+  "pages": {
+    "formules": {
+      "metaTitle": "Formules et prix du buffet à volonté | Au Comptoir de Longueau, Boves",
+      "metaDescription": "Prix du buffet à volonté d'Au Comptoir de Longueau à Boves : midi en semaine, soir, week-end et enfants. Grill, sushis, fruits de mer et desserts compris.",
+      "title": "Formules et prix",
+      "lead": "Un seul prix par personne pour tout le buffet : grill, sushis, fruits de mer, entrées, plats chauds et desserts.",
+      "groupsTitle": "Groupes et anniversaires",
+      "groupsText": "À partir de 10 personnes, nous préparons votre table à l'avance. Indiquez l'occasion dans le formulaire ou appelez-nous pour en parler."
+    },
+    "buffetAmiens": {
+      "metaTitle": "Buffet à volonté près d'Amiens : grill, sushis, fruits de mer | Au Comptoir de Longueau",
+      "metaDescription": "Un grand buffet à volonté à Boves, à quelques minutes d'Amiens : grillades à la minute, sushis, fruits de mer et desserts. Midi et soir, grand parking. Réservez en ligne.",
+      "eyebrow": "Près d'Amiens",
+      "title": "Buffet à volonté près d'Amiens",
+      "intro": [
+        "Vous cherchez un restaurant à volonté autour d'Amiens où tout le monde trouve son bonheur ? Au Comptoir de Longueau, à Boves, réunit sous un même toit un grill, un comptoir de sushis, des fruits de mer, des entrées et des desserts.",
+        "On paie un prix par personne, puis on se sert autant qu'on veut. C'est simple, c'est généreux, et c'est pour ça que les familles et les groupes reviennent."
+      ],
+      "sections": [
+        { "title": "À quelques minutes d'Amiens", "text": "Le restaurant est à Boves, dans la zone de Longueau, au 15 bis rue Michel Strogoff. On y vient en voiture depuis le centre d'Amiens en quelques minutes, et on se gare sur le grand parking devant l'entrée." },
+        { "title": "Un buffet, quatre univers", "text": "Le grill, où les viandes et les poissons sont saisis à la minute ; les sushis et les spécialités asiatiques ; les fruits de mer ; et le grand comptoir des desserts. Entre les deux, des entrées et des plats chauds qui changent selon les jours." },
+        { "title": "Midi, soir et week-end", "text": "Le buffet est servi le midi et le soir. Le prix varie selon le moment de la semaine, et les enfants ont un tarif adapté à leur âge." },
+        { "title": "Pensé pour les groupes", "text": "Anniversaires, repas de famille, sorties d'équipe : la salle accueille les grandes tablées. Réservez en précisant l'occasion, nous vous rappelons pour tout organiser." }
+      ],
+      "cta": "Réserver une table"
+    },
+    "sushisBoves": {
+      "metaTitle": "Sushis à volonté à Boves, près d'Amiens | Au Comptoir de Longueau",
+      "metaDescription": "Sushis, makis, california et sashimis à volonté à Boves, avec grill, fruits de mer et desserts dans le même buffet. Au Comptoir de Longueau, midi et soir.",
+      "eyebrow": "À Boves",
+      "title": "Sushis à volonté à Boves",
+      "intro": [
+        "Envie de sushis sans compter ? Au Comptoir de Longueau, le comptoir des sushis fait partie du grand buffet : makis, california, sushis et sashimis, à prendre autant de fois que vous voulez.",
+        "Et comme tout le monde n'a pas les mêmes envies, le grill, les fruits de mer et les desserts sont juste à côté."
+      ],
+      "sections": [
+        { "title": "Le comptoir des sushis", "text": "Des plateaux de makis, california, sushis et sashimis, réassortis tout au long du service, avec sauce soja, gingembre et wasabi." },
+        { "title": "Avec tout le reste du buffet", "text": "Les sushis sont compris dans le prix du buffet, comme les grillades, les fruits de mer, les entrées, les plats chauds et les desserts." },
+        { "title": "Sushis à volonté près d'Amiens", "text": "Le restaurant se trouve à Boves, dans la zone de Longueau, à quelques minutes d'Amiens. Grand parking devant l'entrée." }
+      ],
+      "cta": "Réserver une table"
+    },
+    "bonCadeau": {
+      "metaTitle": "Bon cadeau | Au Comptoir de Longueau, buffet à volonté à Boves",
+      "metaDescription": "Offrez un repas au buffet à volonté d'Au Comptoir de Longueau, à Boves près d'Amiens.",
+      "title": "Offrir un repas au Comptoir",
+      "lead": "Pour un anniversaire, une fête des pères ou un merci, offrez un repas au buffet.",
+      "text": [
+        "Les bons cadeaux se préparent directement avec le restaurant : appelez-nous, choisissez le nombre de repas, et passez le récupérer à l'accueil.",
+        "Pas de paiement en ligne : tout se règle sur place."
+      ],
+      "cta": "Appeler pour un bon cadeau"
+    },
+    "legal": {
+      "metaTitle": "Mentions légales | Au Comptoir de Longueau",
+      "title": "Mentions légales",
+      "pending": "À remplir",
+      "editor": "Éditeur du site",
+      "editorText": "Au Comptoir de Longueau, restaurant buffet à volonté, 15 bis rue Michel Strogoff, 80440 Boves. Téléphone : 09 54 66 98 88.",
+      "company": "Société",
+      "siret": "SIRET",
+      "director": "Directeur de la publication",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Les informations envoyées par le formulaire de réservation (nom, téléphone, e-mail, message) servent uniquement à traiter votre demande. Elles ne sont ni revendues ni utilisées à d'autres fins. Pour les consulter ou les faire supprimer, contactez le restaurant.",
+      "cookies": "Cookies",
+      "cookiesText": "Le site ne dépose pas de cookie publicitaire ni de mesure d'audience. Seul un cookie technique retient la langue choisie. La carte intégrée est fournie par Google Maps.",
+      "photos": "Photos",
+      "photosText": "Les photos du site sont celles du restaurant. Toute reproduction est interdite sans autorisation."
+    }
+  }
+}

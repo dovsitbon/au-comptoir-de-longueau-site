@@ -1,0 +1,17 @@
+{
+  "_doc": "Emplacements photo du site : déposez assets/<dir>/<id>.jpg (photo prise sur place), puis npm run media. Sans fichier, le site montre un cadre « Photo à venir ». art = dessin au trait affiché en attendant.",
+  "slots": {
+    "hero": { "dir": "hero", "art": "buffet", "shot": "La plus belle vue de la salle avec le buffet, en paysage, lumière du jour, sans visage de client au premier plan." },
+    "grill": { "dir": "grill", "art": "grill", "shot": "Viandes et brochettes sur la plancha, de près, avec la flamme ou la fumée." },
+    "grill-direct": { "dir": "grill", "art": "grill", "shot": "Le cuisinier au grill qui saisit une assiette (mains et plancha, visage facultatif)." },
+    "sushis": { "dir": "sushis", "art": "sushi", "shot": "Le comptoir des sushis : plateaux de makis, california et sashimis, vue de 3/4." },
+    "fruits-de-mer": { "dir": "fruits-de-mer", "art": "seafood", "shot": "Le banc de fruits de mer : crevettes, moules, coquillages sur glace." },
+    "entrees": { "dir": "buffet", "art": "salad", "shot": "Le comptoir des entrées et salades, en longueur." },
+    "plats-chauds": { "dir": "buffet", "art": "pot", "shot": "Les bacs de plats chauds, couvercles ouverts, avec la vapeur." },
+    "desserts": { "dir": "desserts", "art": "dessert", "shot": "Le buffet des desserts : gâteaux, fruits, crèmes." },
+    "desserts-enfants": { "dir": "desserts", "art": "icecream", "shot": "Le coin glaces ou une assiette de desserts d'enfant (sans visage)." },
+    "salle": { "dir": "salle", "art": "room", "shot": "La salle vide et dressée, vue large." },
+    "salle-groupes": { "dir": "salle", "art": "cake", "shot": "Une grande table dressée pour un groupe ou un anniversaire." },
+    "facade": { "dir": "salle", "art": "facade", "shot": "La façade avec l'enseigne, de jour, et un bout du parking." }
+  }
+}

@@ -1,0 +1,14 @@
+# Au Comptoir de Longueau
+
+> Grand restaurant buffet à volonté à Boves (zone de Longueau, près d'Amiens) : grillades cuites à la minute, sushis, fruits de mer, entrées, plats chauds et desserts. Midi et soir, familles et groupes, réservation en ligne ou par téléphone.
+
+- Adresse : 15 bis rue Michel Strogoff, 80440 Boves, France
+- Téléphone : 09 54 66 98 88
+- Note Google : 4,0/5 sur plus de 1 400 avis (relevée le 10 novembre 2026)
+
+## Pages
+- [Accueil](https://au-comptoir-de-longueau.vercel.app/fr)
+- [Formules et prix](https://au-comptoir-de-longueau.vercel.app/fr/formules-et-prix)
+- [Buffet à volonté près d'Amiens](https://au-comptoir-de-longueau.vercel.app/fr/buffet-a-volonte-amiens)
+- [Sushis à volonté à Boves](https://au-comptoir-de-longueau.vercel.app/fr/sushis-a-volonte-boves)
+- [English](https://au-comptoir-de-longueau.vercel.app/en)

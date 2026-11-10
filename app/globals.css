@@ -1,0 +1,417 @@
+@import "tailwindcss" source(none);
+@source "../app";
+@source "../components";
+@source "../lib";
+
+@theme {
+  /* Charte par défaut (à ajuster avec les photos de l'enseigne et de la salle) :
+     noir charbon, rouge braise, or, crème, vert. Le rouge sert aux actions, l'or et le vert restent des accents. */
+  --color-charbon: #1a1a1a;
+  --color-braise: #c2491d;
+  /* Rouge braise pour les boutons et le texte : 5,7:1 sur crème */
+  --color-braise-ink: #a53c14;
+  --color-or: #c9a14e;
+  /* Or lisible sur crème (texte, petites icônes) */
+  --color-or-ink: #7d5f1e;
+  --color-cream: #f7f1e6;
+  --color-cream-deep: #efe5d3;
+  --color-vert: #2e5a44;
+  /* Texte secondaire : 6,9:1 sur crème */
+  --color-muted: #5c554d;
+  --color-line: #e3d8c4;
+
+  --font-body: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-charbon);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-or);
+    color: var(--color-charbon);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-braise-ink);
+    outline-offset: 3px;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-variation-settings: "wdth" 86;
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+  }
+  .hero-title {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-variation-settings: "wdth" 78;
+    font-size: clamp(3.1rem, 10.5vw, 7.75rem);
+    line-height: 0.94;
+    letter-spacing: -0.025em;
+  }
+  .price {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-variation-settings: "wdth" 82;
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .logo-word {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-variation-settings: "wdth" 92;
+    letter-spacing: 0.06em;
+  }
+  .eyebrow {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-braise-ink);
+  }
+  .caps {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition:
+      background-color 0.25s var(--ease-soft),
+      color 0.25s var(--ease-soft),
+      border-color 0.25s var(--ease-soft),
+      transform 0.15s var(--ease-soft);
+  }
+  .btn:active,
+  .btn-line:active {
+    transform: scale(0.98);
+  }
+  .btn {
+    background: var(--color-braise-ink);
+    border: 1px solid var(--color-braise-ink);
+    color: #fff;
+  }
+  .btn:hover {
+    background: #8c3210;
+    border-color: #8c3210;
+  }
+  .btn:disabled {
+    opacity: 0.6;
+  }
+  .btn-line {
+    border: 1px solid color-mix(in srgb, currentColor 40%, transparent);
+  }
+  .btn-line:hover {
+    border-color: currentColor;
+    background: color-mix(in srgb, currentColor 7%, transparent);
+  }
+  .link-line {
+    background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px;
+    padding-bottom: 0.15em;
+    transition: background-size 0.4s var(--ease-soft);
+  }
+  .link-line:hover {
+    background-size: 0 1px;
+  }
+  .nav-link {
+    position: relative;
+    transition: color 0.2s;
+  }
+  .nav-link:hover {
+    color: var(--color-braise-ink);
+  }
+
+  .field {
+    width: 100%;
+    border: 1px solid var(--color-line);
+    background: #fff;
+    padding: 0.75rem 0.875rem;
+    font-size: 1rem;
+    color: var(--color-charbon);
+    border-radius: 12px;
+    min-height: 3rem;
+    transition: border-color 0.2s;
+  }
+  select.field,
+  .bar-field {
+    appearance: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a53c14' stroke-width='1.6'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.75rem center / 1rem;
+    padding-inline-end: 2.25rem;
+    cursor: pointer;
+  }
+  select.field {
+    background-color: #fff;
+  }
+  .bar-field {
+    width: 100%;
+    min-height: 2rem;
+    border: 0;
+    background-position: right 0 center;
+    padding: 0 1.5rem 0 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-charbon);
+  }
+  .bar-field:focus-visible {
+    outline-offset: 2px;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-charbon);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-braise);
+  }
+  .field::placeholder {
+    color: #8a8279;
+  }
+  .label {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-muted);
+    margin-bottom: 0.375rem;
+  }
+  .seg {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    padding: 0.5rem 1.125rem;
+    border: 1px solid var(--color-line);
+    border-radius: 12px;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .seg:hover {
+    border-color: var(--color-charbon);
+  }
+  .seg:has(input:checked) {
+    border-color: var(--color-charbon);
+    background: var(--color-charbon);
+    color: var(--color-cream);
+  }
+  .seg:has(input:focus-visible) {
+    outline: 2px solid var(--color-braise-ink);
+    outline-offset: 3px;
+  }
+
+  /* Photos : zoom très doux au survol */
+  .zoom img {
+    transition: transform 1.2s var(--ease-soft);
+  }
+  .zoom:hover img,
+  .group:hover .zoom img {
+    transform: scale(1.03);
+  }
+
+  /* Emplacement photo (en attendant les vraies photos) : crème, cadre intérieur au trait */
+  .placeholder {
+    background: #fbf8f2;
+  }
+  .placeholder::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border: 1px solid color-mix(in srgb, var(--color-or) 45%, transparent);
+    border-radius: inherit;
+    border-radius: 14px;
+    pointer-events: none;
+  }
+  .placeholder-dark {
+    background: #242322;
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 20px));
+}
+.reveal {
+  transition:
+    opacity 0.7s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.7s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.3s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (1,2 s) : fond crème, la flamme se dessine au trait rouge, deux baguettes se croisent,
+   « AU COMPTOIR DE LONGUEAU » apparaît, fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-cream);
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw 0.5s cubic-bezier(0.55, 0, 0.3, 1) forwards;
+}
+.intro-draw-2 {
+  animation-delay: 0.25s;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-stick {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: intro-stick 0.3s var(--ease-soft) 0.4s forwards;
+}
+.intro-stick-a {
+  --from: translate(-6px, -2px) rotate(-8deg);
+}
+.intro-stick-b {
+  --from: translate(6px, -2px) rotate(8deg);
+}
+@keyframes intro-stick {
+  from {
+    opacity: 0;
+    transform: var(--from);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.intro-name {
+  opacity: 0;
+  letter-spacing: 0.22em;
+  animation: intro-name 0.35s var(--ease-soft) 0.6s forwards;
+}
+@keyframes intro-name {
+  to {
+    opacity: 1;
+    letter-spacing: 0.14em;
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.25s var(--ease-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

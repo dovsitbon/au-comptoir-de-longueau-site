@@ -1,0 +1,4 @@
+{
+  "_doc": "À REMPLIR avec de vrais avis clients, recopiés avec l'accord du restaurant (et de leurs auteurs) depuis Google. N'en inventez aucun. Format : { \"name\": \"Prénom N.\", \"date\": \"2026-10\", \"text\": { \"fr\": \"…\", \"en\": \"…\" } }. Tant que la liste est vide, la section affiche la note Google et les points que les clients citent le plus.",
+  "items": []
+}

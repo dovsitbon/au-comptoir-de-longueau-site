@@ -1,0 +1,963 @@
+# Au Comptoir de Longueau : contenu du site, pour validation
+
+Tous les textes en français et en anglais, les formules et les prix. Les points **À VALIDER** sont des hypothèses à confirmer avec le restaurant.
+Fichier généré par `npm run contenu` à partir de `locales/*.json` et `data/*.json` : modifiez ces fichiers, pas celui-ci.
+
+## Grand titre du hero : 3 options
+
+1. **Tout le choix, à volonté.** (en ligne) · EN : Every choice, as much as you like.
+2. Grill, sushis et fruits de mer, sans compter. · EN : Grill, sushi and seafood, no counting.
+3. Le grand buffet des familles. · EN : The big family buffet.
+
+Pour changer : `locales/fr.json` et `locales/en.json` → `hero.title`.
+
+## À valider en priorité
+
+- **Prix** : midi 16,90 €, soir 23,90 €, enfant 9,90 € relevés dans un avis client publié en 2022. Ils ont pu changer. Prix week-end inconnu.
+- **Tarif enfant** : « à partir de 9,90 €, selon l'âge » et « moins de 12 ans » dans le formulaire : tranches d'âge à confirmer (gratuit pour les tout-petits ?).
+- **Horaires** : 12 h – 14 h 30 et 19 h – 22 h (22 h 30 vendredi et samedi) relevés sur un annuaire, tous les jours. Jours de fermeture éventuels à confirmer.
+- **Midi en semaine** : « du lundi au vendredi » supposé ; **week-end** : « samedi, dimanche et jours fériés, midi et soir » supposé.
+- **Boissons en supplément**, **chaises hautes**, **grand parking gratuit**, **sauce soja, gingembre, wasabi** : ajoutés sans source, à confirmer.
+- **Moyens de paiement** : CB et espèces annoncés ; titres-restaurant et Chèques-Vacances « à demander » (le restaurant figure dans une liste ANCV Chèque-Vacances Connect, à vérifier).
+- **Groupes** : rappel du restaurant à partir de 10 personnes (data/site.json → reservation.groupFrom).
+- **Bon cadeau** : page prévue (sur place, sans paiement en ligne) : le restaurant en propose-t-il ?
+- **Avis** : aucun avis recopié. Section prête dans `data/avis.json` (avec l'accord du restaurant).
+- **Logo** : logo typographique provisoire (flamme + baguettes), à remplacer si l'enseigne a un vrai logo.
+
+## Formules et prix (data/formules.json)
+
+| Formule | Quand | Prix / pers. | English |
+|---|---|---|---|
+| Midi en semaine | Du lundi au vendredi, 12 h – 14 h 30 | 16,90 € | Weekday lunch |
+| Le soir | Tous les soirs, à partir de 19 h | 23,90 € | Evening |
+| Week-end et jours fériés | Samedi, dimanche et jours fériés, midi et soir | **à remplir** (affiché « Tarif sur demande ») | Weekends and bank holidays |
+| Enfants | Prix selon l'âge, midi et soir | à partir de 9,90 € | Children |
+
+_Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours de mise à jour avec le restaurant._
+
+## Horaires (data/horaires.json)
+
+- Lundi : 12:00 – 14:30, 19:00 – 22:00
+- Mardi : 12:00 – 14:30, 19:00 – 22:00
+- Mercredi : 12:00 – 14:30, 19:00 – 22:00
+- Jeudi : 12:00 – 14:30, 19:00 – 22:00
+- Vendredi : 12:00 – 14:30, 19:00 – 22:30
+- Samedi : 12:00 – 14:30, 19:00 – 22:30
+- Dimanche : 12:00 – 14:30, 19:00 – 22:00
+
+## Bandeau d'annonces (data/annonces.json)
+
+- **fetes-2026** (2026-12-01 → 2026-12-31)
+  - fr : Repas de fin d'année en famille ou entre collègues : réservez tôt, les soirs de décembre partent vite.
+  - en : Year-end meals with family or colleagues: book early, December evenings fill up fast.
+- **soiree-fruits-de-mer** (2027-01-15 → 2027-01-31) · désactivée
+  - fr : Soirée fruits de mer le vendredi 29 janvier : à remplir.
+  - en : Seafood night on Friday 29 January: to be filled in.
+- **enfants** (par défaut)
+  - fr : Formule enfant : buffet complet à 9,90 €. Le week-end, pensez à réserver.
+  - en : Kids' deal: the full buffet for €9.90. At weekends, please book ahead.
+
+## Coordonnées (data/site.json)
+
+- 15 bis rue Michel Strogoff, 80440 Boves · 09 54 66 98 88
+- Note Google : 4 sur plus de 1 400 avis (relevée le 2026-11-10)
+- E-mail : **à remplir** · WhatsApp : aucun (ligne fixe)
+
+## Tous les textes du site
+
+### meta
+
+- `meta.title`
+  - fr : Buffet à volonté, grill et sushis près d'Amiens, Boves | Au Comptoir de Longueau
+  - en : All-you-can-eat buffet, grill and sushi near Amiens, Boves | Au Comptoir de Longueau
+- `meta.description`
+  - fr : Grand buffet à volonté à Boves, à deux pas de Longueau et d'Amiens : grillades minute, sushis, fruits de mer, entrées et desserts. Midi et soir, en famille ou en groupe. Réservez votre table.
+  - en : A big all-you-can-eat buffet in Boves, next to Longueau and Amiens: grilled-to-order meats, sushi, seafood, starters and desserts. Lunch and dinner, for families and groups. Book your table.
+- `meta.ogAlt`
+  - fr : Au Comptoir de Longueau, buffet à volonté à Boves
+  - en : Au Comptoir de Longueau, all-you-can-eat buffet in Boves
+
+### intro
+
+- `intro.skip`
+  - fr : Passer
+  - en : Skip
+
+### nav
+
+- `nav.buffet`
+  - fr : Le buffet
+  - en : The buffet
+- `nav.formules`
+  - fr : Formules et prix
+  - en : Prices
+- `nav.groups`
+  - fr : Groupes
+  - en : Groups
+- `nav.book`
+  - fr : Réserver
+  - en : Book
+- `nav.infos`
+  - fr : Infos
+  - en : Visit
+- `nav.giftCard`
+  - fr : Bon cadeau
+  - en : Gift voucher
+- `nav.bookCta`
+  - fr : Réserver une table
+  - en : Book a table
+- `nav.call`
+  - fr : Appeler
+  - en : Call
+- `nav.menu`
+  - fr : Menu
+  - en : Menu
+- `nav.close`
+  - fr : Fermer le menu
+  - en : Close menu
+- `nav.home`
+  - fr : Au Comptoir de Longueau, accueil
+  - en : Au Comptoir de Longueau, home
+- `nav.lang`
+  - fr : Langue
+  - en : Language
+- `nav.skip`
+  - fr : Aller au contenu
+  - en : Skip to content
+- `nav.facebook`
+  - fr : Au Comptoir de Longueau sur Facebook
+  - en : Au Comptoir de Longueau on Facebook
+
+### announce
+
+- `announce.close`
+  - fr : Fermer l'annonce
+  - en : Close announcement
+
+### status
+
+- `status.open`
+  - fr : Ouvert maintenant
+  - en : Open now
+- `status.closed`
+  - fr : Fermé
+  - en : Closed
+- `status.until`
+  - fr : jusqu'à {time}
+  - en : until {time}
+- `status.opens`
+  - fr : ouvre {day} à {time}
+  - en : opens {day} at {time}
+- `status.today`
+  - fr : aujourd'hui
+  - en : today
+- `status.tomorrow`
+  - fr : demain
+  - en : tomorrow
+
+### hero
+
+- `hero.eyebrow`
+  - fr : Buffet à volonté · Grill · Sushis · Fruits de mer · Boves
+  - en : All-you-can-eat buffet · Grill · Sushi · Seafood · Boves
+- `hero.title`
+  - fr : Tout le choix, à volonté.
+  - en : Every choice, as much as you like.
+- `hero.lead`
+  - fr : Grillades saisies devant vous, sushis, fruits de mer, entrées et desserts : un grand buffet où chacun compose son assiette, et y retourne autant qu'il veut.
+  - en : Meats grilled in front of you, sushi, seafood, starters and desserts: a big buffet where everyone builds their own plate and goes back as often as they like.
+- `hero.ctaBook`
+  - fr : Réserver une table
+  - en : Book a table
+- `hero.ctaPrices`
+  - fr : Voir les prix
+  - en : See prices
+- `hero.rating`
+  - fr : {value}/5 sur Google
+  - en : {value}/5 on Google
+- `hero.ratingCount`
+  - fr : plus de {count} avis
+  - en : over {count} reviews
+- `hero.photoSoon`
+  - fr : Photo de la salle et du buffet à venir
+  - en : Photo of the dining room and buffet coming soon
+
+### bar
+
+- `bar.label`
+  - fr : Réserver en trois clics
+  - en : Book in three clicks
+- `bar.date`
+  - fr : Date
+  - en : Date
+- `bar.anyDate`
+  - fr : Choisir
+  - en : Choose
+- `bar.service`
+  - fr : Service
+  - en : Service
+- `bar.guests`
+  - fr : Personnes
+  - en : Guests
+- `bar.submit`
+  - fr : Continuer
+  - en : Continue
+
+### tiles
+
+- `tiles.title`
+  - fr : Au buffet aujourd'hui
+  - en : On the buffet today
+- `tiles.items.grill`
+  - fr : Le grill
+  - en : The grill
+- `tiles.items.sushis`
+  - fr : Les sushis
+  - en : Sushi
+- `tiles.items.fruitsDeMer`
+  - fr : Fruits de mer
+  - en : Seafood
+- `tiles.items.entrees`
+  - fr : Les entrées
+  - en : Starters
+- `tiles.items.platsChauds`
+  - fr : Plats chauds
+  - en : Hot dishes
+- `tiles.items.desserts`
+  - fr : Les desserts
+  - en : Desserts
+
+### services
+
+- `services.title`
+  - fr : Les essentiels
+  - en : The essentials
+- `services.items.volonte.title`
+  - fr : À volonté
+  - en : All you can eat
+- `services.items.volonte.text`
+  - fr : Un prix par personne, et vous vous resservez autant que vous voulez.
+  - en : One price per person, then help yourself as many times as you like.
+- `services.items.parking.title`
+  - fr : Grand parking
+  - en : Large car park
+- `services.items.parking.text`
+  - fr : On se gare sans chercher, juste devant la porte.
+  - en : Easy parking, right outside the door.
+- `services.items.familles.title`
+  - fr : Familles et groupes
+  - en : Families and groups
+- `services.items.familles.text`
+  - fr : Grandes tablées, anniversaires, sorties d'équipe : on vous installe.
+  - en : Long tables, birthdays, team outings: we'll seat you together.
+- `services.items.reservation.title`
+  - fr : Sur réservation
+  - en : Booking
+- `services.items.reservation.text`
+  - fr : En ligne ou par téléphone, conseillée le soir et le week-end.
+  - en : Online or by phone, recommended in the evening and at weekends.
+
+### formules
+
+- `formules.eyebrow`
+  - fr : Formules et prix
+  - en : Prices
+- `formules.title`
+  - fr : Un prix, tout le buffet
+  - en : One price, the whole buffet
+- `formules.lead`
+  - fr : Le même grand buffet à chaque service. Le prix dépend du moment de la semaine, et les enfants paient selon leur âge.
+  - en : The same big buffet at every service. The price depends on the time of the week, and children pay according to their age.
+- `formules.perPerson`
+  - fr : par personne
+  - en : per person
+- `formules.from`
+  - fr : à partir de
+  - en : from
+- `formules.onRequest`
+  - fr : Tarif sur demande
+  - en : Price on request
+- `formules.popular`
+  - fr : Le plus demandé
+  - en : Most popular
+- `formules.note`
+  - fr : Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours de mise à jour avec le restaurant.
+  - en : Prices per person including VAT, full buffet, drinks extra. Prices are being updated with the restaurant.
+- `formules.cta`
+  - fr : Réserver pour ce service
+  - en : Book this service
+- `formules.seeAll`
+  - fr : Formules et prix en détail
+  - en : Prices in detail
+- `formules.items.midi.name`
+  - fr : Midi en semaine
+  - en : Weekday lunch
+- `formules.items.midi.when`
+  - fr : Du lundi au vendredi, 12 h – 14 h 30
+  - en : Monday to Friday, 12 – 2:30 pm
+- `formules.items.midi.points.0`
+  - fr : Tout le buffet : entrées, grill, sushis, desserts
+  - en : The whole buffet: starters, grill, sushi, desserts
+- `formules.items.midi.points.1`
+  - fr : Parfait pour la pause déjeuner
+  - en : Ideal for a lunch break
+- `formules.items.midi.points.2`
+  - fr : Service rapide, on peut repartir à l'heure
+  - en : Quick service, back to work on time
+- `formules.items.soir.name`
+  - fr : Le soir
+  - en : Evening
+- `formules.items.soir.when`
+  - fr : Tous les soirs, à partir de 19 h
+  - en : Every evening, from 7 pm
+- `formules.items.soir.points.0`
+  - fr : Tout le buffet, fruits de mer compris
+  - en : The whole buffet, seafood included
+- `formules.items.soir.points.1`
+  - fr : Le grill tourne jusqu'à la fermeture
+  - en : The grill runs until closing
+- `formules.items.soir.points.2`
+  - fr : Idéal en famille ou entre amis
+  - en : Perfect with family or friends
+- `formules.items.weekend.name`
+  - fr : Week-end et jours fériés
+  - en : Weekends and bank holidays
+- `formules.items.weekend.when`
+  - fr : Samedi, dimanche et jours fériés, midi et soir
+  - en : Saturday, Sunday and bank holidays, lunch and dinner
+- `formules.items.weekend.points.0`
+  - fr : Le buffet dans sa version la plus large
+  - en : The buffet at its widest
+- `formules.items.weekend.points.1`
+  - fr : Réservation fortement conseillée
+  - en : Booking strongly recommended
+- `formules.items.weekend.points.2`
+  - fr : Anniversaires et grandes tablées bienvenus
+  - en : Birthdays and big tables welcome
+- `formules.items.enfants.name`
+  - fr : Enfants
+  - en : Children
+- `formules.items.enfants.when`
+  - fr : Prix selon l'âge, midi et soir
+  - en : Price by age, lunch and dinner
+- `formules.items.enfants.points.0`
+  - fr : Le même buffet que les grands
+  - en : The same buffet as the grown-ups
+- `formules.items.enfants.points.1`
+  - fr : Les desserts en libre-service
+  - en : Help-yourself desserts
+- `formules.items.enfants.points.2`
+  - fr : Chaises hautes sur demande
+  - en : High chairs on request
+
+### buffet
+
+- `buffet.eyebrow`
+  - fr : Le buffet
+  - en : The buffet
+- `buffet.title`
+  - fr : Quatre univers, une seule assiette
+  - en : Four worlds, one plate
+- `buffet.lead`
+  - fr : On fait le tour, on goûte un peu de tout, on revient sur ce qu'on a préféré. Voici ce qui vous attend.
+  - en : Walk around, try a bit of everything, go back for your favourites. Here's what's waiting for you.
+- `buffet.universes.grill.title`
+  - fr : Le grill
+  - en : The grill
+- `buffet.universes.grill.text`
+  - fr : Viandes, brochettes et poissons cuits à la minute sur la plancha. Vous choisissez, on saisit, vous repartez avec une assiette chaude.
+  - en : Meats, skewers and fish cooked to order on the griddle. You choose, we sear, you leave with a hot plate.
+- `buffet.universes.sushis.title`
+  - fr : Les sushis
+  - en : Sushi
+- `buffet.universes.sushis.text`
+  - fr : Makis, california, sushis et sashimis, à côté des nouilles sautées et des spécialités asiatiques.
+  - en : Maki, California rolls, sushi and sashimi, next to stir-fried noodles and other Asian dishes.
+- `buffet.universes.fruitsDeMer.title`
+  - fr : Les fruits de mer
+  - en : Seafood
+- `buffet.universes.fruitsDeMer.text`
+  - fr : Crevettes, moules et coquillages, froids ou cuisinés, pour ceux qui aiment commencer par la mer.
+  - en : Prawns, mussels and shellfish, cold or cooked, for those who like to start with the sea.
+- `buffet.universes.desserts.title`
+  - fr : Les desserts
+  - en : Desserts
+- `buffet.universes.desserts.text`
+  - fr : Gâteaux, fruits, crèmes et glaces : le comptoir préféré des enfants, et souvent des parents.
+  - en : Cakes, fruit, creams and ice cream: the kids' favourite counter, and often the parents' too.
+- `buffet.also`
+  - fr : Et aussi : un grand comptoir d'entrées, crudités et salades, et des plats chauds qui changent selon les jours.
+  - en : Also: a big counter of starters, crudités and salads, and hot dishes that change from day to day.
+
+### blocks
+
+- `blocks.grill.eyebrow`
+  - fr : Le grill en direct
+  - en : Live grill
+- `blocks.grill.title`
+  - fr : Cuit devant vous, servi brûlant
+  - en : Cooked in front of you, served piping hot
+- `blocks.grill.text`
+  - fr : Au grill, rien n'attend sous une lampe. Vous montrez ce qui vous fait envie, le cuisinier le saisit sur la plancha et vous le tend quelques minutes plus tard.
+  - en : Nothing waits under a heat lamp at the grill. Point to what you fancy, the cook sears it on the griddle and hands it over a few minutes later.
+- `blocks.grill.cta`
+  - fr : Voir le buffet
+  - en : See the buffet
+- `blocks.groups.eyebrow`
+  - fr : Anniversaires et groupes
+  - en : Birthdays and groups
+- `blocks.groups.title`
+  - fr : Les grandes tablées, c'est notre quotidien
+  - en : Big tables are what we do every day
+- `blocks.groups.text`
+  - fr : Anniversaire, repas de famille, fin d'année avec les collègues : la salle est grande et on prépare votre table à l'avance. Prévenez-nous, on s'occupe du reste.
+  - en : Birthdays, family meals, end-of-year dinners with colleagues: the dining room is large and we set your table in advance. Let us know, we'll take care of the rest.
+- `blocks.groups.cta`
+  - fr : Réserver
+  - en : Book
+- `blocks.kids.eyebrow`
+  - fr : Les enfants
+  - en : Children
+- `blocks.kids.title`
+  - fr : Chacun remplit son assiette
+  - en : Everyone fills their own plate
+- `blocks.kids.text`
+  - fr : Les enfants adorent choisir eux-mêmes, du grill aux desserts. Un tarif adapté à leur âge, et des chaises hautes pour les plus petits.
+  - en : Children love choosing for themselves, from the grill to the desserts. A price adapted to their age, and high chairs for the little ones.
+- `blocks.kids.cta`
+  - fr : Voir les prix
+  - en : See prices
+
+### reviews
+
+- `reviews.eyebrow`
+  - fr : Vos avis
+  - en : Reviews
+- `reviews.title`
+  - fr : Ce qu'en disent nos clients
+  - en : What our guests say
+- `reviews.count`
+  - fr : sur plus de {count} avis Google
+  - en : from over {count} Google reviews
+- `reviews.checked`
+  - fr : Note relevée le {date}
+  - en : Rating checked on {date}
+- `reviews.themesTitle`
+  - fr : Ce que nos clients citent le plus souvent
+  - en : What our guests mention most
+- `reviews.themes.0`
+  - fr : Le choix
+  - en : The choice
+- `reviews.themes.1`
+  - fr : Les entrées
+  - en : The starters
+- `reviews.themes.2`
+  - fr : Les sushis
+  - en : The sushi
+- `reviews.themes.3`
+  - fr : Les fruits de mer
+  - en : The seafood
+- `reviews.themes.4`
+  - fr : Le buffet à volonté
+  - en : All you can eat
+- `reviews.themes.5`
+  - fr : L'ambiance cantine conviviale
+  - en : The friendly canteen feel
+- `reviews.cta`
+  - fr : Lire les avis sur Google
+  - en : Read the reviews on Google
+
+### infos
+
+- `infos.eyebrow`
+  - fr : Infos pratiques
+  - en : Visit
+- `infos.title`
+  - fr : Nous trouver
+  - en : Find us
+- `infos.address`
+  - fr : Adresse
+  - en : Address
+- `infos.directions`
+  - fr : Itinéraire
+  - en : Directions
+- `infos.phone`
+  - fr : Téléphone
+  - en : Phone
+- `infos.hours`
+  - fr : Horaires
+  - en : Opening hours
+- `infos.hoursNote`
+  - fr : Les jours fériés et les fermetures exceptionnelles sont annoncés en haut du site.
+  - en : Bank holidays and exceptional closures are announced at the top of the site.
+- `infos.access`
+  - fr : Accès
+  - en : Getting here
+- `infos.accessText`
+  - fr : À Boves, dans la zone de Longueau, à quelques minutes d'Amiens en voiture.
+  - en : In Boves, in the Longueau area, a few minutes' drive from Amiens.
+- `infos.parking`
+  - fr : Stationnement
+  - en : Parking
+- `infos.parkingText`
+  - fr : Grand parking gratuit devant le restaurant.
+  - en : Large free car park in front of the restaurant.
+- `infos.mapTitle`
+  - fr : Carte : Au Comptoir de Longueau, 15 bis rue Michel Strogoff, Boves
+  - en : Map: Au Comptoir de Longueau, 15 bis rue Michel Strogoff, Boves
+- `infos.days.0`
+  - fr : Lundi
+  - en : Monday
+- `infos.days.1`
+  - fr : Mardi
+  - en : Tuesday
+- `infos.days.2`
+  - fr : Mercredi
+  - en : Wednesday
+- `infos.days.3`
+  - fr : Jeudi
+  - en : Thursday
+- `infos.days.4`
+  - fr : Vendredi
+  - en : Friday
+- `infos.days.5`
+  - fr : Samedi
+  - en : Saturday
+- `infos.days.6`
+  - fr : Dimanche
+  - en : Sunday
+- `infos.closed`
+  - fr : Fermé
+  - en : Closed
+
+### faq
+
+- `faq.eyebrow`
+  - fr : Questions fréquentes
+  - en : FAQ
+- `faq.title`
+  - fr : Avant de venir
+  - en : Before you come
+- `faq.items.0.q`
+  - fr : Faut-il réserver ?
+  - en : Do I need to book?
+- `faq.items.0.a`
+  - fr : Ce n'est pas obligatoire, mais c'est conseillé le soir et le week-end, et indispensable pour un groupe. Réservez en ligne ou au 09 54 66 98 88.
+  - en : It's not compulsory, but it's recommended in the evening and at weekends, and essential for groups. Book online or call +33 9 54 66 98 88.
+- `faq.items.1.q`
+  - fr : Quels sont vos horaires ?
+  - en : What are your opening hours?
+- `faq.items.1.a`
+  - fr : Nous servons le midi de 12 h à 14 h 30 et le soir à partir de 19 h. Les horaires du jour et le statut « ouvert / fermé » sont affichés en direct sur cette page.
+  - en : We serve lunch from 12 to 2:30 pm and dinner from 7 pm. Today's hours and whether we're open right now are shown live on this page.
+- `faq.items.2.q`
+  - fr : Combien coûte le buffet pour un enfant ?
+  - en : How much is the buffet for a child?
+- `faq.items.2.a`
+  - fr : Les enfants ont un tarif réduit, calculé selon leur âge. Le détail est dans la rubrique Formules et prix.
+  - en : Children get a reduced price based on their age. See the Prices section for details.
+- `faq.items.3.q`
+  - fr : Peut-on venir à 15 ou 20 pour un anniversaire ?
+  - en : Can we come as a group of 15 or 20 for a birthday?
+- `faq.items.3.a`
+  - fr : Oui, c'est même une habitude de la maison. Indiquez l'occasion et le nombre de personnes dans le formulaire, nous vous rappelons pour organiser la table.
+  - en : Yes, it's something we do all the time. Mention the occasion and the number of guests in the form, and we'll call you back to organise your table.
+- `faq.items.4.q`
+  - fr : Quels moyens de paiement acceptez-vous ?
+  - en : Which payment methods do you accept?
+- `faq.items.4.a`
+  - fr : Carte bancaire et espèces. Pour les titres-restaurant et les Chèques-Vacances, demandez-nous à l'accueil ou au téléphone.
+  - en : Card and cash. For meal vouchers and Chèques-Vacances, please ask at the front desk or by phone.
+- `faq.items.5.q`
+  - fr : Je suis allergique, comment faire ?
+  - en : I have an allergy, what should I do?
+- `faq.items.5.a`
+  - fr : Parlez-en à l'équipe en arrivant : nous vous indiquons les plats concernés. La liste des allergènes est disponible sur demande.
+  - en : Tell the team when you arrive and we'll point out the dishes concerned. The allergen list is available on request.
+
+### book
+
+- `book.eyebrow`
+  - fr : Réserver
+  - en : Book
+- `book.title`
+  - fr : Réservez votre table
+  - en : Book your table
+- `book.lead`
+  - fr : Choisissez le jour, le service et l'heure d'arrivée. Nous vous confirmons par e-mail ou par téléphone. Pour ce soir ou un grand groupe, le plus simple reste de nous appeler.
+  - en : Choose the day, the service and your arrival time. We'll confirm by email or phone. For tonight or a large group, the quickest way is to call us.
+- `book.date`
+  - fr : Date
+  - en : Date
+- `book.chooseDate`
+  - fr : Choisir une date
+  - en : Choose a date
+- `book.service`
+  - fr : Service
+  - en : Service
+- `book.services.midi`
+  - fr : Midi
+  - en : Lunch
+- `book.services.soir`
+  - fr : Soir
+  - en : Dinner
+- `book.time`
+  - fr : Heure d'arrivée
+  - en : Arrival time
+- `book.chooseTime`
+  - fr : Choisir l'heure
+  - en : Choose a time
+- `book.noTimes`
+  - fr : Plus de créneau pour ce service ce jour-là. Essayez l'autre service ou un autre jour.
+  - en : No more times for this service that day. Try the other service or another day.
+- `book.noService`
+  - fr : Pas de service ce jour-là
+  - en : No service that day
+- `book.adults`
+  - fr : Adultes
+  - en : Adults
+- `book.children`
+  - fr : Enfants
+  - en : Children
+- `book.childrenHint`
+  - fr : moins de 12 ans
+  - en : under 12
+- `book.occasion`
+  - fr : Occasion
+  - en : Occasion
+- `book.occasions.none`
+  - fr : Pas d'occasion particulière
+  - en : No special occasion
+- `book.occasions.family`
+  - fr : Repas de famille
+  - en : Family meal
+- `book.occasions.birthday`
+  - fr : Anniversaire
+  - en : Birthday
+- `book.occasions.friends`
+  - fr : Entre amis
+  - en : With friends
+- `book.occasions.company`
+  - fr : Repas d'entreprise
+  - en : Work meal
+- `book.occasions.other`
+  - fr : Autre
+  - en : Other
+- `book.message`
+  - fr : Message
+  - en : Message
+- `book.messagePh`
+  - fr : Chaise haute, gâteau d'anniversaire, allergie, table au calme…
+  - en : High chair, birthday cake, allergy, quiet table…
+- `book.name`
+  - fr : Nom
+  - en : Name
+- `book.phone`
+  - fr : Téléphone
+  - en : Phone
+- `book.email`
+  - fr : E-mail
+  - en : Email
+- `book.submit`
+  - fr : Envoyer ma demande
+  - en : Send my request
+- `book.sending`
+  - fr : Envoi…
+  - en : Sending…
+- `book.callInstead`
+  - fr : ou appelez-nous :
+  - en : or call us:
+- `book.privacy`
+  - fr : Vos coordonnées servent uniquement à gérer cette réservation.
+  - en : Your details are only used to handle this booking.
+- `book.groupHint`
+  - fr : À partir de {n} personnes, nous vous rappelons pour organiser votre table.
+  - en : From {n} guests, we'll call you back to organise your table.
+- `book.errors.date`
+  - fr : Choisissez une date.
+  - en : Please choose a date.
+- `book.errors.time`
+  - fr : Choisissez une heure d'arrivée.
+  - en : Please choose an arrival time.
+- `book.errors.name`
+  - fr : Indiquez votre nom.
+  - en : Please enter your name.
+- `book.errors.phone`
+  - fr : Indiquez un numéro de téléphone valide.
+  - en : Please enter a valid phone number.
+- `book.errors.email`
+  - fr : Indiquez une adresse e-mail valide.
+  - en : Please enter a valid email address.
+- `book.errors.server`
+  - fr : La demande n'est pas partie. Réessayez ou appelez-nous au 09 54 66 98 88.
+  - en : Your request didn't go through. Please try again or call +33 9 54 66 98 88.
+- `book.done.title`
+  - fr : Merci, votre demande est bien partie
+  - en : Thank you, your request has been sent
+- `book.done.text`
+  - fr : {name}, nous avons noté une table pour {guests}, {when}.
+  - en : {name}, we've noted a table for {guests}, {when}.
+- `book.done.mail`
+  - fr : Un récapitulatif vient de vous être envoyé par e-mail. La réservation est confirmée dès notre réponse.
+  - en : A summary has just been sent to your inbox. Your booking is confirmed once we reply.
+- `book.done.notSent`
+  - fr : Dernière étape : appelez-nous pour confirmer, la demande en ligne n'est pas encore reliée à notre boîte mail.
+  - en : One last step: please call us to confirm, online requests aren't connected to our inbox yet.
+- `book.done.again`
+  - fr : Nouvelle demande
+  - en : New request
+- `book.mail.subject`
+  - fr : Demande de réservation
+  - en : Booking request
+- `book.mail.title`
+  - fr : Nouvelle demande de réservation
+  - en : New booking request
+- `book.mail.when`
+  - fr : Quand
+  - en : When
+- `book.mail.guests`
+  - fr : Personnes
+  - en : Guests
+- `book.mail.adult`
+  - fr : adulte
+  - en : adult
+- `book.mail.adults`
+  - fr : adultes
+  - en : adults
+- `book.mail.child`
+  - fr : enfant
+  - en : child
+- `book.mail.children`
+  - fr : enfants
+  - en : children
+- `book.mail.occasion`
+  - fr : Occasion
+  - en : Occasion
+- `book.mail.name`
+  - fr : Nom
+  - en : Name
+- `book.mail.phone`
+  - fr : Téléphone
+  - en : Phone
+- `book.mail.email`
+  - fr : E-mail
+  - en : Email
+- `book.mail.message`
+  - fr : Message
+  - en : Message
+- `book.mail.lang`
+  - fr : Langue du client
+  - en : Guest language
+- `book.mail.reply`
+  - fr : Répondez directement à cet e-mail pour confirmer au client.
+  - en : Reply to this email to confirm with the guest.
+- `book.mail.confirmSubject`
+  - fr : Votre demande de réservation chez Au Comptoir de Longueau
+  - en : Your booking request at Au Comptoir de Longueau
+- `book.mail.confirmIntro`
+  - fr : Bonjour {name}, nous avons bien reçu votre demande :
+  - en : Hello {name}, we've received your request:
+- `book.mail.confirmOutro`
+  - fr : Nous vous confirmons la table très vite. Pour toute question, appelez-nous au 09 54 66 98 88. À bientôt au Comptoir !
+  - en : We'll confirm your table very soon. Any questions? Call us on +33 9 54 66 98 88. See you soon at the Comptoir!
+
+### footer
+
+- `footer.tagline`
+  - fr : Grand buffet à volonté à Boves, près d'Amiens : grill, sushis, fruits de mer, entrées et desserts.
+  - en : A big all-you-can-eat buffet in Boves, near Amiens: grill, sushi, seafood, starters and desserts.
+- `footer.explore`
+  - fr : Découvrir
+  - en : Explore
+- `footer.legal`
+  - fr : Mentions légales
+  - en : Legal notice
+- `footer.rights`
+  - fr : © {year} Au Comptoir de Longueau
+  - en : © {year} Au Comptoir de Longueau
+
+### pages
+
+- `pages.formules.metaTitle`
+  - fr : Formules et prix du buffet à volonté | Au Comptoir de Longueau, Boves
+  - en : All-you-can-eat buffet prices | Au Comptoir de Longueau, Boves
+- `pages.formules.metaDescription`
+  - fr : Prix du buffet à volonté d'Au Comptoir de Longueau à Boves : midi en semaine, soir, week-end et enfants. Grill, sushis, fruits de mer et desserts compris.
+  - en : Prices for the all-you-can-eat buffet at Au Comptoir de Longueau in Boves: weekday lunch, evening, weekend and children. Grill, sushi, seafood and desserts included.
+- `pages.formules.title`
+  - fr : Formules et prix
+  - en : Prices
+- `pages.formules.lead`
+  - fr : Un seul prix par personne pour tout le buffet : grill, sushis, fruits de mer, entrées, plats chauds et desserts.
+  - en : One price per person for the whole buffet: grill, sushi, seafood, starters, hot dishes and desserts.
+- `pages.formules.groupsTitle`
+  - fr : Groupes et anniversaires
+  - en : Groups and birthdays
+- `pages.formules.groupsText`
+  - fr : À partir de 10 personnes, nous préparons votre table à l'avance. Indiquez l'occasion dans le formulaire ou appelez-nous pour en parler.
+  - en : From 10 guests, we set your table in advance. Mention the occasion in the form or call us to talk it through.
+- `pages.buffetAmiens.metaTitle`
+  - fr : Buffet à volonté près d'Amiens : grill, sushis, fruits de mer | Au Comptoir de Longueau
+  - en : All-you-can-eat buffet near Amiens: grill, sushi, seafood | Au Comptoir de Longueau
+- `pages.buffetAmiens.metaDescription`
+  - fr : Un grand buffet à volonté à Boves, à quelques minutes d'Amiens : grillades à la minute, sushis, fruits de mer et desserts. Midi et soir, grand parking. Réservez en ligne.
+  - en : A big all-you-can-eat buffet in Boves, a few minutes from Amiens: grilled-to-order meats, sushi, seafood and desserts. Lunch and dinner, large car park. Book online.
+- `pages.buffetAmiens.eyebrow`
+  - fr : Près d'Amiens
+  - en : Near Amiens
+- `pages.buffetAmiens.title`
+  - fr : Buffet à volonté près d'Amiens
+  - en : All-you-can-eat buffet near Amiens
+- `pages.buffetAmiens.intro.0`
+  - fr : Vous cherchez un restaurant à volonté autour d'Amiens où tout le monde trouve son bonheur ? Au Comptoir de Longueau, à Boves, réunit sous un même toit un grill, un comptoir de sushis, des fruits de mer, des entrées et des desserts.
+  - en : Looking for an all-you-can-eat restaurant around Amiens where everyone finds something they love? Au Comptoir de Longueau, in Boves, brings a grill, a sushi counter, seafood, starters and desserts under one roof.
+- `pages.buffetAmiens.intro.1`
+  - fr : On paie un prix par personne, puis on se sert autant qu'on veut. C'est simple, c'est généreux, et c'est pour ça que les familles et les groupes reviennent.
+  - en : You pay one price per person, then help yourself as often as you like. Simple and generous, which is why families and groups keep coming back.
+- `pages.buffetAmiens.sections.0.title`
+  - fr : À quelques minutes d'Amiens
+  - en : A few minutes from Amiens
+- `pages.buffetAmiens.sections.0.text`
+  - fr : Le restaurant est à Boves, dans la zone de Longueau, au 15 bis rue Michel Strogoff. On y vient en voiture depuis le centre d'Amiens en quelques minutes, et on se gare sur le grand parking devant l'entrée.
+  - en : The restaurant is in Boves, in the Longueau area, at 15 bis rue Michel Strogoff. It's a short drive from central Amiens, with a large car park at the entrance.
+- `pages.buffetAmiens.sections.1.title`
+  - fr : Un buffet, quatre univers
+  - en : One buffet, four worlds
+- `pages.buffetAmiens.sections.1.text`
+  - fr : Le grill, où les viandes et les poissons sont saisis à la minute ; les sushis et les spécialités asiatiques ; les fruits de mer ; et le grand comptoir des desserts. Entre les deux, des entrées et des plats chauds qui changent selon les jours.
+  - en : The grill, where meats and fish are seared to order; sushi and Asian dishes; seafood; and the big dessert counter. In between, starters and hot dishes that change from day to day.
+- `pages.buffetAmiens.sections.2.title`
+  - fr : Midi, soir et week-end
+  - en : Lunch, dinner and weekends
+- `pages.buffetAmiens.sections.2.text`
+  - fr : Le buffet est servi le midi et le soir. Le prix varie selon le moment de la semaine, et les enfants ont un tarif adapté à leur âge.
+  - en : The buffet is served at lunch and dinner. The price depends on the time of the week, and children have a price adapted to their age.
+- `pages.buffetAmiens.sections.3.title`
+  - fr : Pensé pour les groupes
+  - en : Made for groups
+- `pages.buffetAmiens.sections.3.text`
+  - fr : Anniversaires, repas de famille, sorties d'équipe : la salle accueille les grandes tablées. Réservez en précisant l'occasion, nous vous rappelons pour tout organiser.
+  - en : Birthdays, family meals, team outings: the dining room welcomes big tables. Book and mention the occasion, and we'll call you back to arrange everything.
+- `pages.buffetAmiens.cta`
+  - fr : Réserver une table
+  - en : Book a table
+- `pages.sushisBoves.metaTitle`
+  - fr : Sushis à volonté à Boves, près d'Amiens | Au Comptoir de Longueau
+  - en : All-you-can-eat sushi in Boves, near Amiens | Au Comptoir de Longueau
+- `pages.sushisBoves.metaDescription`
+  - fr : Sushis, makis, california et sashimis à volonté à Boves, avec grill, fruits de mer et desserts dans le même buffet. Au Comptoir de Longueau, midi et soir.
+  - en : All-you-can-eat sushi, maki, California rolls and sashimi in Boves, with grill, seafood and desserts on the same buffet. Au Comptoir de Longueau, lunch and dinner.
+- `pages.sushisBoves.eyebrow`
+  - fr : À Boves
+  - en : In Boves
+- `pages.sushisBoves.title`
+  - fr : Sushis à volonté à Boves
+  - en : All-you-can-eat sushi in Boves
+- `pages.sushisBoves.intro.0`
+  - fr : Envie de sushis sans compter ? Au Comptoir de Longueau, le comptoir des sushis fait partie du grand buffet : makis, california, sushis et sashimis, à prendre autant de fois que vous voulez.
+  - en : Craving sushi without counting? At Au Comptoir de Longueau, the sushi counter is part of the big buffet: maki, California rolls, sushi and sashimi, as many times as you like.
+- `pages.sushisBoves.intro.1`
+  - fr : Et comme tout le monde n'a pas les mêmes envies, le grill, les fruits de mer et les desserts sont juste à côté.
+  - en : And since not everyone wants the same thing, the grill, seafood and desserts are right next to it.
+- `pages.sushisBoves.sections.0.title`
+  - fr : Le comptoir des sushis
+  - en : The sushi counter
+- `pages.sushisBoves.sections.0.text`
+  - fr : Des plateaux de makis, california, sushis et sashimis, réassortis tout au long du service, avec sauce soja, gingembre et wasabi.
+  - en : Trays of maki, California rolls, sushi and sashimi, refilled throughout service, with soy sauce, ginger and wasabi.
+- `pages.sushisBoves.sections.1.title`
+  - fr : Avec tout le reste du buffet
+  - en : With the rest of the buffet
+- `pages.sushisBoves.sections.1.text`
+  - fr : Les sushis sont compris dans le prix du buffet, comme les grillades, les fruits de mer, les entrées, les plats chauds et les desserts.
+  - en : Sushi is included in the buffet price, along with grilled meats, seafood, starters, hot dishes and desserts.
+- `pages.sushisBoves.sections.2.title`
+  - fr : Sushis à volonté près d'Amiens
+  - en : All-you-can-eat sushi near Amiens
+- `pages.sushisBoves.sections.2.text`
+  - fr : Le restaurant se trouve à Boves, dans la zone de Longueau, à quelques minutes d'Amiens. Grand parking devant l'entrée.
+  - en : The restaurant is in Boves, in the Longueau area, a few minutes from Amiens. Large car park at the entrance.
+- `pages.sushisBoves.cta`
+  - fr : Réserver une table
+  - en : Book a table
+- `pages.bonCadeau.metaTitle`
+  - fr : Bon cadeau | Au Comptoir de Longueau, buffet à volonté à Boves
+  - en : Gift voucher | Au Comptoir de Longueau, all-you-can-eat buffet in Boves
+- `pages.bonCadeau.metaDescription`
+  - fr : Offrez un repas au buffet à volonté d'Au Comptoir de Longueau, à Boves près d'Amiens.
+  - en : Give a meal at the Au Comptoir de Longueau all-you-can-eat buffet in Boves, near Amiens.
+- `pages.bonCadeau.title`
+  - fr : Offrir un repas au Comptoir
+  - en : Give a meal at the Comptoir
+- `pages.bonCadeau.lead`
+  - fr : Pour un anniversaire, une fête des pères ou un merci, offrez un repas au buffet.
+  - en : For a birthday, Father's Day or simply to say thank you, give a meal at the buffet.
+- `pages.bonCadeau.text.0`
+  - fr : Les bons cadeaux se préparent directement avec le restaurant : appelez-nous, choisissez le nombre de repas, et passez le récupérer à l'accueil.
+  - en : Gift vouchers are arranged directly with the restaurant: call us, choose the number of meals, and pick it up at the front desk.
+- `pages.bonCadeau.text.1`
+  - fr : Pas de paiement en ligne : tout se règle sur place.
+  - en : No online payment: everything is settled on site.
+- `pages.bonCadeau.cta`
+  - fr : Appeler pour un bon cadeau
+  - en : Call for a gift voucher
+- `pages.legal.metaTitle`
+  - fr : Mentions légales | Au Comptoir de Longueau
+  - en : Legal notice | Au Comptoir de Longueau
+- `pages.legal.title`
+  - fr : Mentions légales
+  - en : Legal notice
+- `pages.legal.pending`
+  - fr : À remplir
+  - en : To be filled in
+- `pages.legal.editor`
+  - fr : Éditeur du site
+  - en : Publisher
+- `pages.legal.editorText`
+  - fr : Au Comptoir de Longueau, restaurant buffet à volonté, 15 bis rue Michel Strogoff, 80440 Boves. Téléphone : 09 54 66 98 88.
+  - en : Au Comptoir de Longueau, all-you-can-eat buffet restaurant, 15 bis rue Michel Strogoff, 80440 Boves, France. Phone: +33 9 54 66 98 88.
+- `pages.legal.company`
+  - fr : Société
+  - en : Company
+- `pages.legal.siret`
+  - fr : SIRET
+  - en : SIRET
+- `pages.legal.director`
+  - fr : Directeur de la publication
+  - en : Publication director
+- `pages.legal.host`
+  - fr : Hébergement
+  - en : Hosting
+- `pages.legal.data`
+  - fr : Données personnelles
+  - en : Personal data
+- `pages.legal.dataText`
+  - fr : Les informations envoyées par le formulaire de réservation (nom, téléphone, e-mail, message) servent uniquement à traiter votre demande. Elles ne sont ni revendues ni utilisées à d'autres fins. Pour les consulter ou les faire supprimer, contactez le restaurant.
+  - en : Information sent through the booking form (name, phone, email, message) is only used to handle your request. It is never sold or used for any other purpose. To access or delete it, contact the restaurant.
+- `pages.legal.cookies`
+  - fr : Cookies
+  - en : Cookies
+- `pages.legal.cookiesText`
+  - fr : Le site ne dépose pas de cookie publicitaire ni de mesure d'audience. Seul un cookie technique retient la langue choisie. La carte intégrée est fournie par Google Maps.
+  - en : This site sets no advertising or analytics cookies. A single technical cookie remembers your chosen language. The embedded map is provided by Google Maps.
+- `pages.legal.photos`
+  - fr : Photos
+  - en : Photos
+- `pages.legal.photosText`
+  - fr : Les photos du site sont celles du restaurant. Toute reproduction est interdite sans autorisation.
+  - en : The photos on this site belong to the restaurant. Reproduction without permission is prohibited.
+
+## Textes alternatifs des photos
+
+- `hero` · fr : La grande salle d'Au Comptoir de Longueau et le buffet · en : The large dining room and buffet at Au Comptoir de Longueau
+- `grill` · fr : Viandes et brochettes saisies sur la plancha du grill · en : Meats and skewers seared on the grill
+- `grill-direct` · fr : Le cuisinier saisit une assiette au grill, devant les clients · en : The cook searing a plate at the grill in front of guests
+- `sushis` · fr : Plateaux de sushis et de makis au buffet · en : Trays of sushi and maki on the buffet
+- `fruits-de-mer` · fr : Crevettes et coquillages au buffet de fruits de mer · en : Prawns and shellfish on the seafood buffet
+- `entrees` · fr : Le comptoir des entrées et des salades · en : The starters and salads counter
+- `plats-chauds` · fr : Les plats chauds du buffet · en : Hot dishes on the buffet
+- `desserts` · fr : Gâteaux, fruits et desserts au buffet · en : Cakes, fruit and desserts on the buffet
+- `desserts-enfants` · fr : Le comptoir des desserts et des glaces · en : The desserts and ice cream counter
+- `salle` · fr : La salle du restaurant · en : The restaurant's dining room
+- `salle-groupes` · fr : Une grande table dressée pour un groupe · en : A long table set for a group
+- `facade` · fr : La façade et l'entrée du restaurant · en : The front and entrance of the restaurant

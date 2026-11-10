@@ -1,0 +1,41 @@
+{
+  "name": "Au Comptoir de Longueau",
+  "url": "https://au-comptoir-de-longueau.vercel.app",
+  "phone": "09 54 66 98 88",
+  "phoneIntl": "+33954669888",
+  "whatsapp": "",
+  "email": "",
+  "address": {
+    "street": "15 bis rue Michel Strogoff",
+    "postalCode": "80440",
+    "city": "Boves",
+    "area": "Longueau, Amiens Métropole",
+    "region": "Hauts-de-France",
+    "country": "FR"
+  },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Au+Comptoir+de+Longueau+15+bis+rue+Michel+Strogoff+80440+Boves",
+  "mapsEmbed": "https://www.google.com/maps?q=Au+Comptoir+de+Longueau,+15+bis+rue+Michel+Strogoff,+80440+Boves&z=15&output=embed",
+  "reviewsUrl": "https://www.google.com/maps/search/?api=1&query=Au+Comptoir+de+Longueau+Boves",
+  "facebook": "https://www.facebook.com/aucomptoirLongueau/",
+  "rating": {
+    "value": 4,
+    "count": 1400,
+    "countLabel": "1 400",
+    "source": "Google",
+    "checked": "2026-11-10"
+  },
+  "reservation": {
+    "maxAdults": 40,
+    "maxChildren": 20,
+    "groupFrom": 10,
+    "lastSeatingMinutes": 45,
+    "stepMinutes": 15,
+    "lunchEndsBefore": "16:00"
+  },
+  "legal": {
+    "company": "",
+    "siret": "",
+    "director": "",
+    "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis"
+  }
+}

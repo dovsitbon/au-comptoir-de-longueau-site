@@ -1,0 +1,25 @@
+{
+  "_doc": "Bandeau d'infos en haut du site (refermable). Le premier message actif (active ≠ false) dont la période contient la date du jour s'affiche (from / to inclus, AAAA-MM-JJ). Sinon : « default ». Pour une fermeture exceptionnelle, ajoutez aussi la date dans data/horaires.json → exceptions.",
+  "items": [
+    {
+      "id": "fetes-2026",
+      "from": "2026-12-01",
+      "to": "2026-12-31",
+      "fr": "Repas de fin d'année en famille ou entre collègues : réservez tôt, les soirs de décembre partent vite.",
+      "en": "Year-end meals with family or colleagues: book early, December evenings fill up fast."
+    },
+    {
+      "id": "soiree-fruits-de-mer",
+      "active": false,
+      "from": "2027-01-15",
+      "to": "2027-01-31",
+      "fr": "Soirée fruits de mer le vendredi 29 janvier : à remplir.",
+      "en": "Seafood night on Friday 29 January: to be filled in."
+    }
+  ],
+  "default": {
+    "id": "enfants",
+    "fr": "Formule enfant : buffet complet à 9,90 €. Le week-end, pensez à réserver.",
+    "en": "Kids' deal: the full buffet for €9.90. At weekends, please book ahead."
+  }
+}

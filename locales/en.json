@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "All-you-can-eat buffet, grill and sushi near Amiens, Boves | Au Comptoir de Longueau",
+    "description": "A big all-you-can-eat buffet in Boves, next to Longueau and Amiens: grilled-to-order meats, sushi, seafood, starters and desserts. Lunch and dinner, for families and groups. Book your table.",
+    "ogAlt": "Au Comptoir de Longueau, all-you-can-eat buffet in Boves"
+  },
+  "intro": { "skip": "Skip" },
+  "nav": {
+    "buffet": "The buffet",
+    "formules": "Prices",
+    "groups": "Groups",
+    "book": "Book",
+    "infos": "Visit",
+    "giftCard": "Gift voucher",
+    "bookCta": "Book a table",
+    "call": "Call",
+    "menu": "Menu",
+    "close": "Close menu",
+    "home": "Au Comptoir de Longueau, home",
+    "lang": "Language",
+    "skip": "Skip to content",
+    "facebook": "Au Comptoir de Longueau on Facebook"
+  },
+  "announce": { "close": "Close announcement" },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "hero": {
+    "eyebrow": "All-you-can-eat buffet · Grill · Sushi · Seafood · Boves",
+    "title": "Every choice, as much as you like.",
+    "lead": "Meats grilled in front of you, sushi, seafood, starters and desserts: a big buffet where everyone builds their own plate and goes back as often as they like.",
+    "ctaBook": "Book a table",
+    "ctaPrices": "See prices",
+    "rating": "{value}/5 on Google",
+    "ratingCount": "over {count} reviews",
+    "photoSoon": "Photo of the dining room and buffet coming soon"
+  },
+  "bar": {
+    "label": "Book in three clicks",
+    "date": "Date",
+    "anyDate": "Choose",
+    "service": "Service",
+    "guests": "Guests",
+    "submit": "Continue"
+  },
+  "tiles": {
+    "title": "On the buffet today",
+    "items": {
+      "grill": "The grill",
+      "sushis": "Sushi",
+      "fruitsDeMer": "Seafood",
+      "entrees": "Starters",
+      "platsChauds": "Hot dishes",
+      "desserts": "Desserts"
+    }
+  },
+  "services": {
+    "title": "The essentials",
+    "items": {
+      "volonte": { "title": "All you can eat", "text": "One price per person, then help yourself as many times as you like." },
+      "parking": { "title": "Large car park", "text": "Easy parking, right outside the door." },
+      "familles": { "title": "Families and groups", "text": "Long tables, birthdays, team outings: we'll seat you together." },
+      "reservation": { "title": "Booking", "text": "Online or by phone, recommended in the evening and at weekends." }
+    }
+  },
+  "formules": {
+    "eyebrow": "Prices",
+    "title": "One price, the whole buffet",
+    "lead": "The same big buffet at every service. The price depends on the time of the week, and children pay according to their age.",
+    "perPerson": "per person",
+    "from": "from",
+    "onRequest": "Price on request",
+    "popular": "Most popular",
+    "note": "Prices per person including VAT, full buffet, drinks extra. Prices are being updated with the restaurant.",
+    "cta": "Book this service",
+    "seeAll": "Prices in detail",
+    "items": {
+      "midi": { "name": "Weekday lunch", "when": "Monday to Friday, 12 – 2:30 pm", "points": ["The whole buffet: starters, grill, sushi, desserts", "Ideal for a lunch break", "Quick service, back to work on time"] },
+      "soir": { "name": "Evening", "when": "Every evening, from 7 pm", "points": ["The whole buffet, seafood included", "The grill runs until closing", "Perfect with family or friends"] },
+      "weekend": { "name": "Weekends and bank holidays", "when": "Saturday, Sunday and bank holidays, lunch and dinner", "points": ["The buffet at its widest", "Booking strongly recommended", "Birthdays and big tables welcome"] },
+      "enfants": { "name": "Children", "when": "Price by age, lunch and dinner", "points": ["The same buffet as the grown-ups", "Help-yourself desserts", "High chairs on request"] }
+    }
+  },
+  "buffet": {
+    "eyebrow": "The buffet",
+    "title": "Four worlds, one plate",
+    "lead": "Walk around, try a bit of everything, go back for your favourites. Here's what's waiting for you.",
+    "universes": {
+      "grill": { "title": "The grill", "text": "Meats, skewers and fish cooked to order on the griddle. You choose, we sear, you leave with a hot plate." },
+      "sushis": { "title": "Sushi", "text": "Maki, California rolls, sushi and sashimi, next to stir-fried noodles and other Asian dishes." },
+      "fruitsDeMer": { "title": "Seafood", "text": "Prawns, mussels and shellfish, cold or cooked, for those who like to start with the sea." },
+      "desserts": { "title": "Desserts", "text": "Cakes, fruit, creams and ice cream: the kids' favourite counter, and often the parents' too." }
+    },
+    "also": "Also: a big counter of starters, crudités and salads, and hot dishes that change from day to day."
+  },
+  "blocks": {
+    "grill": { "eyebrow": "Live grill", "title": "Cooked in front of you, served piping hot", "text": "Nothing waits under a heat lamp at the grill. Point to what you fancy, the cook sears it on the griddle and hands it over a few minutes later.", "cta": "See the buffet" },
+    "groups": { "eyebrow": "Birthdays and groups", "title": "Big tables are what we do every day", "text": "Birthdays, family meals, end-of-year dinners with colleagues: the dining room is large and we set your table in advance. Let us know, we'll take care of the rest.", "cta": "Book" },
+    "kids": { "eyebrow": "Children", "title": "Everyone fills their own plate", "text": "Children love choosing for themselves, from the grill to the desserts. A price adapted to their age, and high chairs for the little ones.", "cta": "See prices" }
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What our guests say",
+    "count": "from over {count} Google reviews",
+    "checked": "Rating checked on {date}",
+    "themesTitle": "What our guests mention most",
+    "themes": ["The choice", "The starters", "The sushi", "The seafood", "All you can eat", "The friendly canteen feel"],
+    "cta": "Read the reviews on Google"
+  },
+  "infos": {
+    "eyebrow": "Visit",
+    "title": "Find us",
+    "address": "Address",
+    "directions": "Directions",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "hoursNote": "Bank holidays and exceptional closures are announced at the top of the site.",
+    "access": "Getting here",
+    "accessText": "In Boves, in the Longueau area, a few minutes' drive from Amiens.",
+    "parking": "Parking",
+    "parkingText": "Large free car park in front of the restaurant.",
+    "mapTitle": "Map: Au Comptoir de Longueau, 15 bis rue Michel Strogoff, Boves",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "closed": "Closed"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you come",
+    "items": [
+      { "q": "Do I need to book?", "a": "It's not compulsory, but it's recommended in the evening and at weekends, and essential for groups. Book online or call +33 9 54 66 98 88." },
+      { "q": "What are your opening hours?", "a": "We serve lunch from 12 to 2:30 pm and dinner from 7 pm. Today's hours and whether we're open right now are shown live on this page." },
+      { "q": "How much is the buffet for a child?", "a": "Children get a reduced price based on their age. See the Prices section for details." },
+      { "q": "Can we come as a group of 15 or 20 for a birthday?", "a": "Yes, it's something we do all the time. Mention the occasion and the number of guests in the form, and we'll call you back to organise your table." },
+      { "q": "Which payment methods do you accept?", "a": "Card and cash. For meal vouchers and Chèques-Vacances, please ask at the front desk or by phone." },
+      { "q": "I have an allergy, what should I do?", "a": "Tell the team when you arrive and we'll point out the dishes concerned. The allergen list is available on request." }
+    ]
+  },
+  "book": {
+    "eyebrow": "Book",
+    "title": "Book your table",
+    "lead": "Choose the day, the service and your arrival time. We'll confirm by email or phone. For tonight or a large group, the quickest way is to call us.",
+    "date": "Date",
+    "chooseDate": "Choose a date",
+    "service": "Service",
+    "services": { "midi": "Lunch", "soir": "Dinner" },
+    "time": "Arrival time",
+    "chooseTime": "Choose a time",
+    "noTimes": "No more times for this service that day. Try the other service or another day.",
+    "noService": "No service that day",
+    "adults": "Adults",
+    "children": "Children",
+    "childrenHint": "under 12",
+    "occasion": "Occasion",
+    "occasions": { "none": "No special occasion", "family": "Family meal", "birthday": "Birthday", "friends": "With friends", "company": "Work meal", "other": "Other" },
+    "message": "Message",
+    "messagePh": "High chair, birthday cake, allergy, quiet table…",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "submit": "Send my request",
+    "sending": "Sending…",
+    "callInstead": "or call us:",
+    "privacy": "Your details are only used to handle this booking.",
+    "groupHint": "From {n} guests, we'll call you back to organise your table.",
+    "errors": {
+      "date": "Please choose a date.",
+      "time": "Please choose an arrival time.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "Please enter a valid email address.",
+      "server": "Your request didn't go through. Please try again or call +33 9 54 66 98 88."
+    },
+    "done": {
+      "title": "Thank you, your request has been sent",
+      "text": "{name}, we've noted a table for {guests}, {when}.",
+      "mail": "A summary has just been sent to your inbox. Your booking is confirmed once we reply.",
+      "notSent": "One last step: please call us to confirm, online requests aren't connected to our inbox yet.",
+      "again": "New request"
+    },
+    "mail": {
+      "subject": "Booking request",
+      "title": "New booking request",
+      "when": "When",
+      "guests": "Guests",
+      "adult": "adult",
+      "adults": "adults",
+      "child": "child",
+      "children": "children",
+      "occasion": "Occasion",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "lang": "Guest language",
+      "reply": "Reply to this email to confirm with the guest.",
+      "confirmSubject": "Your booking request at Au Comptoir de Longueau",
+      "confirmIntro": "Hello {name}, we've received your request:",
+      "confirmOutro": "We'll confirm your table very soon. Any questions? Call us on +33 9 54 66 98 88. See you soon at the Comptoir!"
+    }
+  },
+  "photo": {
+    "soon": "Photo coming soon",
+    "subjects": {
+      "hero": "The dining room and buffet",
+      "grill": "The grill",
+      "grill-direct": "The cook at the grill",
+      "sushis": "The sushi counter",
+      "fruits-de-mer": "Seafood",
+      "entrees": "Starters",
+      "plats-chauds": "Hot dishes",
+      "desserts": "Desserts",
+      "desserts-enfants": "The dessert corner",
+      "salle": "The dining room",
+      "salle-groupes": "A big table",
+      "facade": "The front of the restaurant"
+    }
+  },
+  "alt": {
+    "hero": "The large dining room and buffet at Au Comptoir de Longueau",
+    "grill": "Meats and skewers seared on the grill",
+    "grill-direct": "The cook searing a plate at the grill in front of guests",
+    "sushis": "Trays of sushi and maki on the buffet",
+    "fruits-de-mer": "Prawns and shellfish on the seafood buffet",
+    "entrees": "The starters and salads counter",
+    "plats-chauds": "Hot dishes on the buffet",
+    "desserts": "Cakes, fruit and desserts on the buffet",
+    "desserts-enfants": "The desserts and ice cream counter",
+    "salle": "The restaurant's dining room",
+    "salle-groupes": "A long table set for a group",
+    "facade": "The front and entrance of the restaurant"
+  },
+  "footer": {
+    "tagline": "A big all-you-can-eat buffet in Boves, near Amiens: grill, sushi, seafood, starters and desserts.",
+    "explore": "Explore",
+    "legal": "Legal notice",
+    "rights": "© {year} Au Comptoir de Longueau"
+  },
+  "pages": {
+    "formules": {
+      "metaTitle": "All-you-can-eat buffet prices | Au Comptoir de Longueau, Boves",
+      "metaDescription": "Prices for the all-you-can-eat buffet at Au Comptoir de Longueau in Boves: weekday lunch, evening, weekend and children. Grill, sushi, seafood and desserts included.",
+      "title": "Prices",
+      "lead": "One price per person for the whole buffet: grill, sushi, seafood, starters, hot dishes and desserts.",
+      "groupsTitle": "Groups and birthdays",
+      "groupsText": "From 10 guests, we set your table in advance. Mention the occasion in the form or call us to talk it through."
+    },
+    "buffetAmiens": {
+      "metaTitle": "All-you-can-eat buffet near Amiens: grill, sushi, seafood | Au Comptoir de Longueau",
+      "metaDescription": "A big all-you-can-eat buffet in Boves, a few minutes from Amiens: grilled-to-order meats, sushi, seafood and desserts. Lunch and dinner, large car park. Book online.",
+      "eyebrow": "Near Amiens",
+      "title": "All-you-can-eat buffet near Amiens",
+      "intro": [
+        "Looking for an all-you-can-eat restaurant around Amiens where everyone finds something they love? Au Comptoir de Longueau, in Boves, brings a grill, a sushi counter, seafood, starters and desserts under one roof.",
+        "You pay one price per person, then help yourself as often as you like. Simple and generous, which is why families and groups keep coming back."
+      ],
+      "sections": [
+        { "title": "A few minutes from Amiens", "text": "The restaurant is in Boves, in the Longueau area, at 15 bis rue Michel Strogoff. It's a short drive from central Amiens, with a large car park at the entrance." },
+        { "title": "One buffet, four worlds", "text": "The grill, where meats and fish are seared to order; sushi and Asian dishes; seafood; and the big dessert counter. In between, starters and hot dishes that change from day to day." },
+        { "title": "Lunch, dinner and weekends", "text": "The buffet is served at lunch and dinner. The price depends on the time of the week, and children have a price adapted to their age." },
+        { "title": "Made for groups", "text": "Birthdays, family meals, team outings: the dining room welcomes big tables. Book and mention the occasion, and we'll call you back to arrange everything." }
+      ],
+      "cta": "Book a table"
+    },
+    "sushisBoves": {
+      "metaTitle": "All-you-can-eat sushi in Boves, near Amiens | Au Comptoir de Longueau",
+      "metaDescription": "All-you-can-eat sushi, maki, California rolls and sashimi in Boves, with grill, seafood and desserts on the same buffet. Au Comptoir de Longueau, lunch and dinner.",
+      "eyebrow": "In Boves",
+      "title": "All-you-can-eat sushi in Boves",
+      "intro": [
+        "Craving sushi without counting? At Au Comptoir de Longueau, the sushi counter is part of the big buffet: maki, California rolls, sushi and sashimi, as many times as you like.",
+        "And since not everyone wants the same thing, the grill, seafood and desserts are right next to it."
+      ],
+      "sections": [
+        { "title": "The sushi counter", "text": "Trays of maki, California rolls, sushi and sashimi, refilled throughout service, with soy sauce, ginger and wasabi." },
+        { "title": "With the rest of the buffet", "text": "Sushi is included in the buffet price, along with grilled meats, seafood, starters, hot dishes and desserts." },
+        { "title": "All-you-can-eat sushi near Amiens", "text": "The restaurant is in Boves, in the Longueau area, a few minutes from Amiens. Large car park at the entrance." }
+      ],
+      "cta": "Book a table"
+    },
+    "bonCadeau": {
+      "metaTitle": "Gift voucher | Au Comptoir de Longueau, all-you-can-eat buffet in Boves",
+      "metaDescription": "Give a meal at the Au Comptoir de Longueau all-you-can-eat buffet in Boves, near Amiens.",
+      "title": "Give a meal at the Comptoir",
+      "lead": "For a birthday, Father's Day or simply to say thank you, give a meal at the buffet.",
+      "text": [
+        "Gift vouchers are arranged directly with the restaurant: call us, choose the number of meals, and pick it up at the front desk.",
+        "No online payment: everything is settled on site."
+      ],
+      "cta": "Call for a gift voucher"
+    },
+    "legal": {
+      "metaTitle": "Legal notice | Au Comptoir de Longueau",
+      "title": "Legal notice",
+      "pending": "To be filled in",
+      "editor": "Publisher",
+      "editorText": "Au Comptoir de Longueau, all-you-can-eat buffet restaurant, 15 bis rue Michel Strogoff, 80440 Boves, France. Phone: +33 9 54 66 98 88.",
+      "company": "Company",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "Information sent through the booking form (name, phone, email, message) is only used to handle your request. It is never sold or used for any other purpose. To access or delete it, contact the restaurant.",
+      "cookies": "Cookies",
+      "cookiesText": "This site sets no advertising or analytics cookies. A single technical cookie remembers your chosen language. The embedded map is provided by Google Maps.",
+      "photos": "Photos",
+      "photosText": "The photos on this site belong to the restaurant. Reproduction without permission is prohibited."
+    }
+  }
+}
