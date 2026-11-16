@@ -1,10 +1,30 @@
 {
-  "_doc": "Formules et prix, par personne, TTC. Prix midi, soir et enfant relevés dans un avis client publié en 2022 : À CONFIRMER avec le restaurant (ils ont pu changer). price: null = « à remplir » (affiché « Tarif sur demande »). from: true = affiché « à partir de ». Textes : locales/*.json → formules.items.<id>.",
-  "checked": "2022",
+  "_doc": "Formules et prix, par personne, TTC, service inclus. Relevés sur une photo de la carte publiée sur la fiche Google Maps du restaurant (date de la photo inconnue) : À CONFIRMER avec le restaurant. Les prix diffèrent le 14 février et le 31 décembre au soir. price: null = « à remplir ». from: true = « à partir de ». Textes : locales/*.json → formules.items.<id>.",
+  "checked": "2026-11-16",
   "items": [
-    { "id": "midi", "price": 16.9, "from": false, "highlight": false },
-    { "id": "soir", "price": 23.9, "from": false, "highlight": true },
-    { "id": "weekend", "price": null, "from": false, "highlight": false },
-    { "id": "enfants", "price": 9.9, "from": true, "highlight": false }
+    {
+      "id": "midi",
+      "price": 18.9,
+      "from": false,
+      "highlight": false
+    },
+    {
+      "id": "soir",
+      "price": 25.9,
+      "from": false,
+      "highlight": true
+    },
+    {
+      "id": "weekend",
+      "price": 25.9,
+      "from": false,
+      "highlight": false
+    },
+    {
+      "id": "enfants",
+      "price": 12.9,
+      "from": false,
+      "highlight": false
+    }
   ]
 }

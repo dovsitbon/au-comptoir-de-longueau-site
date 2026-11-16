@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { LineArt } from "@/components/LineArt";
-import { artOf, photoOf, type SlotId } from "@/lib/photos";
+import { artOf, isStock, photoOf, type SlotId } from "@/lib/photos";
 import type { Dict } from "@/lib/i18n";
 
 /**
@@ -10,7 +10,13 @@ import type { Dict } from "@/lib/i18n";
  */
 export function Photo({ id, d, sizes, priority = false, tone = "light", minimal = false, className = "" }: { id: SlotId; d: Dict; sizes: string; priority?: boolean; tone?: "light" | "dark"; minimal?: boolean; className?: string }) {
   const p = photoOf(id);
-  if (p) return <Image src={p.src} alt={d.alt[id]} fill sizes={sizes} priority={priority} quality={75} className={`object-cover ${className}`} />;
+  if (p)
+    return (
+      <>
+        <Image src={p.src} alt={d.alt[id]} fill sizes={sizes} priority={priority} quality={75} className={`object-cover ${className}`} />
+        {isStock(id) && !minimal && <span className="absolute start-3 bottom-3 rounded-full bg-charbon/60 px-2.5 py-1 text-[0.6875rem] leading-none text-cream/90 backdrop-blur-sm">{d.photo.illustration}</span>}
+      </>
+    );
   const dark = tone === "dark";
   return (
     <div className={`placeholder absolute inset-0 flex flex-col items-center justify-center gap-3 p-6 text-center ${dark ? "placeholder-dark text-cream/70" : "text-charbon/55"} ${className}`} role="img" aria-label={d.alt[id]}>

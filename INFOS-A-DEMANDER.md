@@ -4,8 +4,8 @@
 
 ## L'essentiel
 - [ ] **Nom du gérant** et **l'histoire du restaurant** (ouverture le 6 octobre de quelle année ? ancien nom « Jungle Meal's » sur Facebook ?) → `locales/*.json`
-- [ ] **Fait-il partie d'une enseigne** (réseau de buffets) qui a déjà un site ? Si oui, lien et règles de marque.
-- [ ] **Formules et prix actuels** : midi semaine, soir, week-end et jours fériés, enfants (tranches d'âge, gratuit pour les petits ?), boissons comprises ou non → `data/formules.json`
+- [ ] **Enseigne « Au Comptoir »** : la carte cite Au Comptoir de Rivery (2 rue René Cassin) et Au Comptoir Beauvais. Existe-t-il un site ou un logo d'enseigne ?
+- [ ] **Confirmer les prix** relevés sur la carte : midi semaine 18,90 €, soir et week-end 25,90 €, enfant -10 ans 12,90 € (gratuit -3 ans ?), boissons en supplément → `data/formules.json`
 - [ ] **Horaires exacts** jour par jour, midi et soir, jours de fermeture, fermetures de l'année → `data/horaires.json`
 - [ ] **Capacité** de la salle, nombre maximum pour un groupe, privatisation possible, menu ou gâteau d'anniversaire ? → `data/site.json` (reservation), `locales/*.json`
 - [ ] **E-mail** qui recevra les réservations → variable Vercel `BOOKING_NOTIFY_EMAIL` (+ clé Resend)
@@ -13,7 +13,7 @@
 
 ## Visuels
 - [ ] **Logo** officiel (fichier vectoriel ou photo nette de l'enseigne) → `components/Logo.tsx`, `public/logo.svg`, `app/icon.svg`
-- [ ] **Photos** du buffet, du grill, des sushis, des fruits de mer, des desserts, de la salle et de la façade → liste dans `assets/A-PHOTOGRAPHIER.md`, puis `npm run media`
+- [ ] **Accord pour les 3 photos de la fiche Google** utilisées sur le site (voir PHOTOS-SOURCES.md), puis **photos** du buffet, du grill, des sushis, des fruits de mer, des desserts, de la salle et de la façade → liste dans `assets/A-PHOTOGRAPHIER.md`, puis `npm run media`
 - [ ] Accord pour recopier quelques **vrais avis Google** sur le site → `data/avis.json`
 
 ## Légal

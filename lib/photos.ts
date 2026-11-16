@@ -11,6 +11,9 @@ export type SlotId = keyof typeof SLOTS;
 export type Art = "buffet" | "grill" | "sushi" | "seafood" | "salad" | "pot" | "dessert" | "icecream" | "room" | "cake" | "facade";
 export type Img = { src: string; width: number; height: number };
 
+/** true si la photo est une illustration libre de droits (pas le restaurant). */
+export const isStock = (id: SlotId) => (SLOTS[id] as { source?: string }).source === "stock";
+
 export const artOf = (id: SlotId) => SLOTS[id].art as Art;
 
 /** La photo d'un emplacement si elle a été déposée, sinon null. */

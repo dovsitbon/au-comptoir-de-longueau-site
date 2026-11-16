@@ -13,10 +13,12 @@ Pour changer : `locales/fr.json` et `locales/en.json` → `hero.title`.
 
 ## À valider en priorité
 
-- **Prix** : midi 16,90 €, soir 23,90 €, enfant 9,90 € relevés dans un avis client publié en 2022. Ils ont pu changer. Prix week-end inconnu.
-- **Tarif enfant** : « à partir de 9,90 €, selon l'âge » et « moins de 12 ans » dans le formulaire : tranches d'âge à confirmer (gratuit pour les tout-petits ?).
-- **Horaires** : 12 h – 14 h 30 et 19 h – 22 h (22 h 30 vendredi et samedi) relevés sur un annuaire, tous les jours. Jours de fermeture éventuels à confirmer.
+- **Prix** : relevés sur une photo de la carte publiée sur la fiche Google (date inconnue) : midi semaine 18,90 €, soir et week-end 25,90 €, enfant -10 ans 12,90 €. D'autres photos montrent des prix plus anciens (17,90 / 24,90 / 9,99 €).
+- **Tarif enfant** : moins de 10 ans, sur pièce d'identité. Gratuit pour les moins de 3 ans (vu sur une ancienne carte) ?
+- **Horaires** : 12 h – 14 h 30 et 19 h – 22 h, 7 j/7 (flyer du restaurant). La fermeture à 22 h 30 vendredi et samedi est une hypothèse.
 - **Midi en semaine** : « du lundi au vendredi » supposé ; **week-end** : « samedi, dimanche et jours fériés, midi et soir » supposé.
+- **Enseigne** : le restaurant fait partie du réseau « Au Comptoir » (Rivery, Beauvais… vu sur la carte). Un site d'enseigne existe-t-il ?
+- **Photos** : 4 réelles (fiche Google) + 7 d'illustration : voir PHOTOS-SOURCES.md.
 - **Boissons en supplément**, **chaises hautes**, **grand parking gratuit**, **sauce soja, gingembre, wasabi** : ajoutés sans source, à confirmer.
 - **Moyens de paiement** : CB et espèces annoncés ; titres-restaurant et Chèques-Vacances « à demander » (le restaurant figure dans une liste ANCV Chèque-Vacances Connect, à vérifier).
 - **Groupes** : rappel du restaurant à partir de 10 personnes (data/site.json → reservation.groupFrom).
@@ -28,12 +30,12 @@ Pour changer : `locales/fr.json` et `locales/en.json` → `hero.title`.
 
 | Formule | Quand | Prix / pers. | English |
 |---|---|---|---|
-| Midi en semaine | Du lundi au vendredi, 12 h – 14 h 30 | 16,90 € | Weekday lunch |
-| Le soir | Tous les soirs, à partir de 19 h | 23,90 € | Evening |
-| Week-end et jours fériés | Samedi, dimanche et jours fériés, midi et soir | **à remplir** (affiché « Tarif sur demande ») | Weekends and bank holidays |
-| Enfants | Prix selon l'âge, midi et soir | à partir de 9,90 € | Children |
+| Midi en semaine | Du lundi au vendredi, hors jours fériés | 18,90 € | Weekday lunch |
+| Le soir | Tous les soirs, à partir de 19 h | 25,90 € | Evening |
+| Week-end et jours fériés | Samedi, dimanche et jours fériés, midi et soir | 25,90 € | Weekends and bank holidays |
+| Enfants | Moins de 10 ans, midi et soir | 12,90 € | Children |
 
-_Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours de mise à jour avec le restaurant._
+_Prix TTC par personne, service compris, buffet complet, boissons en supplément. Tarifs différents le 14 février et le 31 décembre au soir._
 
 ## Horaires (data/horaires.json)
 
@@ -54,8 +56,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Soirée fruits de mer le vendredi 29 janvier : à remplir.
   - en : Seafood night on Friday 29 January: to be filled in.
 - **enfants** (par défaut)
-  - fr : Formule enfant : buffet complet à 9,90 €. Le week-end, pensez à réserver.
-  - en : Kids' deal: the full buffet for €9.90. At weekends, please book ahead.
+  - fr : Formule enfant (moins de 10 ans) : tout le buffet à 12,90 €. Le week-end, pensez à réserver.
+  - en : Kids' deal (under 10): the whole buffet for €12.90. At weekends, please book ahead.
 
 ## Coordonnées (data/site.json)
 
@@ -266,8 +268,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Un prix, tout le buffet
   - en : One price, the whole buffet
 - `formules.lead`
-  - fr : Le même grand buffet à chaque service. Le prix dépend du moment de la semaine, et les enfants paient selon leur âge.
-  - en : The same big buffet at every service. The price depends on the time of the week, and children pay according to their age.
+  - fr : Le même grand buffet à chaque service. Le prix dépend du moment de la semaine, et les enfants de moins de 10 ans ont leur tarif.
+  - en : The same big buffet at every service. The price depends on the time of the week, and children under 10 have their own price.
 - `formules.perPerson`
   - fr : par personne
   - en : per person
@@ -281,8 +283,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Le plus demandé
   - en : Most popular
 - `formules.note`
-  - fr : Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours de mise à jour avec le restaurant.
-  - en : Prices per person including VAT, full buffet, drinks extra. Prices are being updated with the restaurant.
+  - fr : Prix TTC par personne, service compris, buffet complet, boissons en supplément. Tarifs différents le 14 février et le 31 décembre au soir.
+  - en : Prices per person including VAT and service, full buffet, drinks extra. Different prices on 14 February and 31 December evening.
 - `formules.cta`
   - fr : Réserver pour ce service
   - en : Book this service
@@ -293,8 +295,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Midi en semaine
   - en : Weekday lunch
 - `formules.items.midi.when`
-  - fr : Du lundi au vendredi, 12 h – 14 h 30
-  - en : Monday to Friday, 12 – 2:30 pm
+  - fr : Du lundi au vendredi, hors jours fériés
+  - en : Monday to Friday, excluding bank holidays
 - `formules.items.midi.points.0`
   - fr : Tout le buffet : entrées, grill, sushis, desserts
   - en : The whole buffet: starters, grill, sushi, desserts
@@ -338,8 +340,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Enfants
   - en : Children
 - `formules.items.enfants.when`
-  - fr : Prix selon l'âge, midi et soir
-  - en : Price by age, lunch and dinner
+  - fr : Moins de 10 ans, midi et soir
+  - en : Under 10, lunch and dinner
 - `formules.items.enfants.points.0`
   - fr : Le même buffet que les grands
   - en : The same buffet as the grown-ups
@@ -347,8 +349,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Les desserts en libre-service
   - en : Help-yourself desserts
 - `formules.items.enfants.points.2`
-  - fr : Chaises hautes sur demande
-  - en : High chairs on request
+  - fr : Sur présentation d'une pièce d'identité
+  - en : Proof of age may be requested
 
 ### buffet
 
@@ -422,8 +424,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Chacun remplit son assiette
   - en : Everyone fills their own plate
 - `blocks.kids.text`
-  - fr : Les enfants adorent choisir eux-mêmes, du grill aux desserts. Un tarif adapté à leur âge, et des chaises hautes pour les plus petits.
-  - en : Children love choosing for themselves, from the grill to the desserts. A price adapted to their age, and high chairs for the little ones.
+  - fr : Les enfants adorent choisir eux-mêmes, du grill aux desserts. Moins de 10 ans : un tarif à part, midi et soir.
+  - en : Children love choosing for themselves, from the grill to the desserts. Under 10s have their own price, lunch and dinner.
 - `blocks.kids.cta`
   - fr : Voir les prix
   - en : See prices
@@ -554,8 +556,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Combien coûte le buffet pour un enfant ?
   - en : How much is the buffet for a child?
 - `faq.items.2.a`
-  - fr : Les enfants ont un tarif réduit, calculé selon leur âge. Le détail est dans la rubrique Formules et prix.
-  - en : Children get a reduced price based on their age. See the Prices section for details.
+  - fr : Le buffet est à 12,90 € pour les enfants de moins de 10 ans, midi et soir, sur présentation d'une pièce d'identité. Le détail est dans la rubrique Formules et prix.
+  - en : The buffet is €12.90 for children under 10, lunch and dinner, with proof of age. See the Prices section for details.
 - `faq.items.3.q`
   - fr : Peut-on venir à 15 ou 20 pour un anniversaire ?
   - en : Can we come as a group of 15 or 20 for a birthday?
@@ -620,8 +622,8 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
   - fr : Enfants
   - en : Children
 - `book.childrenHint`
-  - fr : moins de 12 ans
-  - en : under 12
+  - fr : moins de 10 ans
+  - en : under 10
 - `book.occasion`
   - fr : Occasion
   - en : Occasion
@@ -949,15 +951,15 @@ _Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours
 
 ## Textes alternatifs des photos
 
-- `hero` · fr : La grande salle d'Au Comptoir de Longueau et le buffet · en : The large dining room and buffet at Au Comptoir de Longueau
-- `grill` · fr : Viandes et brochettes saisies sur la plancha du grill · en : Meats and skewers seared on the grill
-- `grill-direct` · fr : Le cuisinier saisit une assiette au grill, devant les clients · en : The cook searing a plate at the grill in front of guests
-- `sushis` · fr : Plateaux de sushis et de makis au buffet · en : Trays of sushi and maki on the buffet
-- `fruits-de-mer` · fr : Crevettes et coquillages au buffet de fruits de mer · en : Prawns and shellfish on the seafood buffet
-- `entrees` · fr : Le comptoir des entrées et des salades · en : The starters and salads counter
-- `plats-chauds` · fr : Les plats chauds du buffet · en : Hot dishes on the buffet
-- `desserts` · fr : Gâteaux, fruits et desserts au buffet · en : Cakes, fruit and desserts on the buffet
-- `desserts-enfants` · fr : Le comptoir des desserts et des glaces · en : The desserts and ice cream counter
-- `salle` · fr : La salle du restaurant · en : The restaurant's dining room
-- `salle-groupes` · fr : Une grande table dressée pour un groupe · en : A long table set for a group
+- `hero` · fr : La grande salle d'Au Comptoir de Longueau, ses lustres et ses guirlandes lumineuses · en : The large dining room at Au Comptoir de Longueau with chandeliers and string lights
+- `grill` · fr : Le buffet chaud du restaurant sous ses lampes en cuivre : saucisses, viandes et accompagnements · en : The restaurant's hot buffet under copper lamps: sausages, meats and sides
+- `grill-direct` · fr : Brochettes de viande saisies sur un grill · en : Meat skewers seared on a grill
+- `sushis` · fr : Assortiment de sushis, sashimis et makis · en : Assorted sushi, sashimi and maki
+- `fruits-de-mer` · fr : Huîtres, crevettes et citron sur glace · en : Oysters, prawns and lemon on ice
+- `entrees` · fr : Assiette de salade composée · en : A plate of mixed salad
+- `plats-chauds` · fr : Bac de plat chaud sur un buffet · en : A hot dish in a buffet chafing dish
+- `desserts` · fr : Assortiment de petits desserts sur un buffet · en : Assorted small desserts on a buffet
+- `desserts-enfants` · fr : Bacs de glaces de toutes les couleurs · en : Trays of colourful ice cream
+- `salle` · fr : La salle d'Au Comptoir de Longueau, tables en bois et chaises · en : The dining room at Au Comptoir de Longueau, wooden tables and chairs
+- `salle-groupes` · fr : La grande salle du restaurant, prête pour les tablées · en : The restaurant's large dining room, ready for big tables
 - `facade` · fr : La façade et l'entrée du restaurant · en : The front and entrance of the restaurant

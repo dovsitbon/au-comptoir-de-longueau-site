@@ -19,7 +19,7 @@
   ],
   "default": {
     "id": "enfants",
-    "fr": "Formule enfant : buffet complet à 9,90 €. Le week-end, pensez à réserver.",
-    "en": "Kids' deal: the full buffet for €9.90. At weekends, please book ahead."
+    "fr": "Formule enfant (moins de 10 ans) : tout le buffet à 12,90 €. Le week-end, pensez à réserver.",
+    "en": "Kids' deal (under 10): the whole buffet for €12.90. At weekends, please book ahead."
   }
 }

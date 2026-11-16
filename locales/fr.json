@@ -4,7 +4,9 @@
     "description": "Grand buffet à volonté à Boves, à deux pas de Longueau et d'Amiens : grillades minute, sushis, fruits de mer, entrées et desserts. Midi et soir, en famille ou en groupe. Réservez votre table.",
     "ogAlt": "Au Comptoir de Longueau, buffet à volonté à Boves"
   },
-  "intro": { "skip": "Passer" },
+  "intro": {
+    "skip": "Passer"
+  },
   "nav": {
     "buffet": "Le buffet",
     "formules": "Formules et prix",
@@ -21,7 +23,9 @@
     "skip": "Aller au contenu",
     "facebook": "Au Comptoir de Longueau sur Facebook"
   },
-  "announce": { "close": "Fermer l'annonce" },
+  "announce": {
+    "close": "Fermer l'annonce"
+  },
   "status": {
     "open": "Ouvert maintenant",
     "closed": "Fermé",
@@ -62,28 +66,72 @@
   "services": {
     "title": "Les essentiels",
     "items": {
-      "volonte": { "title": "À volonté", "text": "Un prix par personne, et vous vous resservez autant que vous voulez." },
-      "parking": { "title": "Grand parking", "text": "On se gare sans chercher, juste devant la porte." },
-      "familles": { "title": "Familles et groupes", "text": "Grandes tablées, anniversaires, sorties d'équipe : on vous installe." },
-      "reservation": { "title": "Sur réservation", "text": "En ligne ou par téléphone, conseillée le soir et le week-end." }
+      "volonte": {
+        "title": "À volonté",
+        "text": "Un prix par personne, et vous vous resservez autant que vous voulez."
+      },
+      "parking": {
+        "title": "Grand parking",
+        "text": "On se gare sans chercher, juste devant la porte."
+      },
+      "familles": {
+        "title": "Familles et groupes",
+        "text": "Grandes tablées, anniversaires, sorties d'équipe : on vous installe."
+      },
+      "reservation": {
+        "title": "Sur réservation",
+        "text": "En ligne ou par téléphone, conseillée le soir et le week-end."
+      }
     }
   },
   "formules": {
     "eyebrow": "Formules et prix",
     "title": "Un prix, tout le buffet",
-    "lead": "Le même grand buffet à chaque service. Le prix dépend du moment de la semaine, et les enfants paient selon leur âge.",
+    "lead": "Le même grand buffet à chaque service. Le prix dépend du moment de la semaine, et les enfants de moins de 10 ans ont leur tarif.",
     "perPerson": "par personne",
     "from": "à partir de",
     "onRequest": "Tarif sur demande",
     "popular": "Le plus demandé",
-    "note": "Prix TTC par personne, buffet complet, boissons en supplément. Tarifs en cours de mise à jour avec le restaurant.",
+    "note": "Prix TTC par personne, service compris, buffet complet, boissons en supplément. Tarifs différents le 14 février et le 31 décembre au soir.",
     "cta": "Réserver pour ce service",
     "seeAll": "Formules et prix en détail",
     "items": {
-      "midi": { "name": "Midi en semaine", "when": "Du lundi au vendredi, 12 h – 14 h 30", "points": ["Tout le buffet : entrées, grill, sushis, desserts", "Parfait pour la pause déjeuner", "Service rapide, on peut repartir à l'heure"] },
-      "soir": { "name": "Le soir", "when": "Tous les soirs, à partir de 19 h", "points": ["Tout le buffet, fruits de mer compris", "Le grill tourne jusqu'à la fermeture", "Idéal en famille ou entre amis"] },
-      "weekend": { "name": "Week-end et jours fériés", "when": "Samedi, dimanche et jours fériés, midi et soir", "points": ["Le buffet dans sa version la plus large", "Réservation fortement conseillée", "Anniversaires et grandes tablées bienvenus"] },
-      "enfants": { "name": "Enfants", "when": "Prix selon l'âge, midi et soir", "points": ["Le même buffet que les grands", "Les desserts en libre-service", "Chaises hautes sur demande"] }
+      "midi": {
+        "name": "Midi en semaine",
+        "when": "Du lundi au vendredi, hors jours fériés",
+        "points": [
+          "Tout le buffet : entrées, grill, sushis, desserts",
+          "Parfait pour la pause déjeuner",
+          "Service rapide, on peut repartir à l'heure"
+        ]
+      },
+      "soir": {
+        "name": "Le soir",
+        "when": "Tous les soirs, à partir de 19 h",
+        "points": [
+          "Tout le buffet, fruits de mer compris",
+          "Le grill tourne jusqu'à la fermeture",
+          "Idéal en famille ou entre amis"
+        ]
+      },
+      "weekend": {
+        "name": "Week-end et jours fériés",
+        "when": "Samedi, dimanche et jours fériés, midi et soir",
+        "points": [
+          "Le buffet dans sa version la plus large",
+          "Réservation fortement conseillée",
+          "Anniversaires et grandes tablées bienvenus"
+        ]
+      },
+      "enfants": {
+        "name": "Enfants",
+        "when": "Moins de 10 ans, midi et soir",
+        "points": [
+          "Le même buffet que les grands",
+          "Les desserts en libre-service",
+          "Sur présentation d'une pièce d'identité"
+        ]
+      }
     }
   },
   "buffet": {
@@ -91,17 +139,44 @@
     "title": "Quatre univers, une seule assiette",
     "lead": "On fait le tour, on goûte un peu de tout, on revient sur ce qu'on a préféré. Voici ce qui vous attend.",
     "universes": {
-      "grill": { "title": "Le grill", "text": "Viandes, brochettes et poissons cuits à la minute sur la plancha. Vous choisissez, on saisit, vous repartez avec une assiette chaude." },
-      "sushis": { "title": "Les sushis", "text": "Makis, california, sushis et sashimis, à côté des nouilles sautées et des spécialités asiatiques." },
-      "fruitsDeMer": { "title": "Les fruits de mer", "text": "Crevettes, moules et coquillages, froids ou cuisinés, pour ceux qui aiment commencer par la mer." },
-      "desserts": { "title": "Les desserts", "text": "Gâteaux, fruits, crèmes et glaces : le comptoir préféré des enfants, et souvent des parents." }
+      "grill": {
+        "title": "Le grill",
+        "text": "Viandes, brochettes et poissons cuits à la minute sur la plancha. Vous choisissez, on saisit, vous repartez avec une assiette chaude."
+      },
+      "sushis": {
+        "title": "Les sushis",
+        "text": "Makis, california, sushis et sashimis, à côté des nouilles sautées et des spécialités asiatiques."
+      },
+      "fruitsDeMer": {
+        "title": "Les fruits de mer",
+        "text": "Crevettes, moules et coquillages, froids ou cuisinés, pour ceux qui aiment commencer par la mer."
+      },
+      "desserts": {
+        "title": "Les desserts",
+        "text": "Gâteaux, fruits, crèmes et glaces : le comptoir préféré des enfants, et souvent des parents."
+      }
     },
     "also": "Et aussi : un grand comptoir d'entrées, crudités et salades, et des plats chauds qui changent selon les jours."
   },
   "blocks": {
-    "grill": { "eyebrow": "Le grill en direct", "title": "Cuit devant vous, servi brûlant", "text": "Au grill, rien n'attend sous une lampe. Vous montrez ce qui vous fait envie, le cuisinier le saisit sur la plancha et vous le tend quelques minutes plus tard.", "cta": "Voir le buffet" },
-    "groups": { "eyebrow": "Anniversaires et groupes", "title": "Les grandes tablées, c'est notre quotidien", "text": "Anniversaire, repas de famille, fin d'année avec les collègues : la salle est grande et on prépare votre table à l'avance. Prévenez-nous, on s'occupe du reste.", "cta": "Réserver" },
-    "kids": { "eyebrow": "Les enfants", "title": "Chacun remplit son assiette", "text": "Les enfants adorent choisir eux-mêmes, du grill aux desserts. Un tarif adapté à leur âge, et des chaises hautes pour les plus petits.", "cta": "Voir les prix" }
+    "grill": {
+      "eyebrow": "Le grill en direct",
+      "title": "Cuit devant vous, servi brûlant",
+      "text": "Au grill, rien n'attend sous une lampe. Vous montrez ce qui vous fait envie, le cuisinier le saisit sur la plancha et vous le tend quelques minutes plus tard.",
+      "cta": "Voir le buffet"
+    },
+    "groups": {
+      "eyebrow": "Anniversaires et groupes",
+      "title": "Les grandes tablées, c'est notre quotidien",
+      "text": "Anniversaire, repas de famille, fin d'année avec les collègues : la salle est grande et on prépare votre table à l'avance. Prévenez-nous, on s'occupe du reste.",
+      "cta": "Réserver"
+    },
+    "kids": {
+      "eyebrow": "Les enfants",
+      "title": "Chacun remplit son assiette",
+      "text": "Les enfants adorent choisir eux-mêmes, du grill aux desserts. Moins de 10 ans : un tarif à part, midi et soir.",
+      "cta": "Voir les prix"
+    }
   },
   "reviews": {
     "eyebrow": "Vos avis",
@@ -109,7 +184,14 @@
     "count": "sur plus de {count} avis Google",
     "checked": "Note relevée le {date}",
     "themesTitle": "Ce que nos clients citent le plus souvent",
-    "themes": ["Le choix", "Les entrées", "Les sushis", "Les fruits de mer", "Le buffet à volonté", "L'ambiance cantine conviviale"],
+    "themes": [
+      "Le choix",
+      "Les entrées",
+      "Les sushis",
+      "Les fruits de mer",
+      "Le buffet à volonté",
+      "L'ambiance cantine conviviale"
+    ],
     "cta": "Lire les avis sur Google"
   },
   "infos": {
@@ -125,19 +207,45 @@
     "parking": "Stationnement",
     "parkingText": "Grand parking gratuit devant le restaurant.",
     "mapTitle": "Carte : Au Comptoir de Longueau, 15 bis rue Michel Strogoff, Boves",
-    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
     "closed": "Fermé"
   },
   "faq": {
     "eyebrow": "Questions fréquentes",
     "title": "Avant de venir",
     "items": [
-      { "q": "Faut-il réserver ?", "a": "Ce n'est pas obligatoire, mais c'est conseillé le soir et le week-end, et indispensable pour un groupe. Réservez en ligne ou au 09 54 66 98 88." },
-      { "q": "Quels sont vos horaires ?", "a": "Nous servons le midi de 12 h à 14 h 30 et le soir à partir de 19 h. Les horaires du jour et le statut « ouvert / fermé » sont affichés en direct sur cette page." },
-      { "q": "Combien coûte le buffet pour un enfant ?", "a": "Les enfants ont un tarif réduit, calculé selon leur âge. Le détail est dans la rubrique Formules et prix." },
-      { "q": "Peut-on venir à 15 ou 20 pour un anniversaire ?", "a": "Oui, c'est même une habitude de la maison. Indiquez l'occasion et le nombre de personnes dans le formulaire, nous vous rappelons pour organiser la table." },
-      { "q": "Quels moyens de paiement acceptez-vous ?", "a": "Carte bancaire et espèces. Pour les titres-restaurant et les Chèques-Vacances, demandez-nous à l'accueil ou au téléphone." },
-      { "q": "Je suis allergique, comment faire ?", "a": "Parlez-en à l'équipe en arrivant : nous vous indiquons les plats concernés. La liste des allergènes est disponible sur demande." }
+      {
+        "q": "Faut-il réserver ?",
+        "a": "Ce n'est pas obligatoire, mais c'est conseillé le soir et le week-end, et indispensable pour un groupe. Réservez en ligne ou au 09 54 66 98 88."
+      },
+      {
+        "q": "Quels sont vos horaires ?",
+        "a": "Nous servons le midi de 12 h à 14 h 30 et le soir à partir de 19 h. Les horaires du jour et le statut « ouvert / fermé » sont affichés en direct sur cette page."
+      },
+      {
+        "q": "Combien coûte le buffet pour un enfant ?",
+        "a": "Le buffet est à 12,90 € pour les enfants de moins de 10 ans, midi et soir, sur présentation d'une pièce d'identité. Le détail est dans la rubrique Formules et prix."
+      },
+      {
+        "q": "Peut-on venir à 15 ou 20 pour un anniversaire ?",
+        "a": "Oui, c'est même une habitude de la maison. Indiquez l'occasion et le nombre de personnes dans le formulaire, nous vous rappelons pour organiser la table."
+      },
+      {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "Carte bancaire et espèces. Pour les titres-restaurant et les Chèques-Vacances, demandez-nous à l'accueil ou au téléphone."
+      },
+      {
+        "q": "Je suis allergique, comment faire ?",
+        "a": "Parlez-en à l'équipe en arrivant : nous vous indiquons les plats concernés. La liste des allergènes est disponible sur demande."
+      }
     ]
   },
   "book": {
@@ -147,16 +255,26 @@
     "date": "Date",
     "chooseDate": "Choisir une date",
     "service": "Service",
-    "services": { "midi": "Midi", "soir": "Soir" },
+    "services": {
+      "midi": "Midi",
+      "soir": "Soir"
+    },
     "time": "Heure d'arrivée",
     "chooseTime": "Choisir l'heure",
     "noTimes": "Plus de créneau pour ce service ce jour-là. Essayez l'autre service ou un autre jour.",
     "noService": "Pas de service ce jour-là",
     "adults": "Adultes",
     "children": "Enfants",
-    "childrenHint": "moins de 12 ans",
+    "childrenHint": "moins de 10 ans",
     "occasion": "Occasion",
-    "occasions": { "none": "Pas d'occasion particulière", "family": "Repas de famille", "birthday": "Anniversaire", "friends": "Entre amis", "company": "Repas d'entreprise", "other": "Autre" },
+    "occasions": {
+      "none": "Pas d'occasion particulière",
+      "family": "Repas de famille",
+      "birthday": "Anniversaire",
+      "friends": "Entre amis",
+      "company": "Repas d'entreprise",
+      "other": "Autre"
+    },
     "message": "Message",
     "messagePh": "Chaise haute, gâteau d'anniversaire, allergie, table au calme…",
     "name": "Nom",
@@ -218,20 +336,21 @@
       "salle": "La salle",
       "salle-groupes": "Une grande tablée",
       "facade": "La façade"
-    }
+    },
+    "illustration": "Photo d'illustration"
   },
   "alt": {
-    "hero": "La grande salle d'Au Comptoir de Longueau et le buffet",
-    "grill": "Viandes et brochettes saisies sur la plancha du grill",
-    "grill-direct": "Le cuisinier saisit une assiette au grill, devant les clients",
-    "sushis": "Plateaux de sushis et de makis au buffet",
-    "fruits-de-mer": "Crevettes et coquillages au buffet de fruits de mer",
-    "entrees": "Le comptoir des entrées et des salades",
-    "plats-chauds": "Les plats chauds du buffet",
-    "desserts": "Gâteaux, fruits et desserts au buffet",
-    "desserts-enfants": "Le comptoir des desserts et des glaces",
-    "salle": "La salle du restaurant",
-    "salle-groupes": "Une grande table dressée pour un groupe",
+    "hero": "La grande salle d'Au Comptoir de Longueau, ses lustres et ses guirlandes lumineuses",
+    "grill": "Le buffet chaud du restaurant sous ses lampes en cuivre : saucisses, viandes et accompagnements",
+    "grill-direct": "Brochettes de viande saisies sur un grill",
+    "sushis": "Assortiment de sushis, sashimis et makis",
+    "fruits-de-mer": "Huîtres, crevettes et citron sur glace",
+    "entrees": "Assiette de salade composée",
+    "plats-chauds": "Bac de plat chaud sur un buffet",
+    "desserts": "Assortiment de petits desserts sur un buffet",
+    "desserts-enfants": "Bacs de glaces de toutes les couleurs",
+    "salle": "La salle d'Au Comptoir de Longueau, tables en bois et chaises",
+    "salle-groupes": "La grande salle du restaurant, prête pour les tablées",
     "facade": "La façade et l'entrée du restaurant"
   },
   "footer": {
@@ -259,10 +378,22 @@
         "On paie un prix par personne, puis on se sert autant qu'on veut. C'est simple, c'est généreux, et c'est pour ça que les familles et les groupes reviennent."
       ],
       "sections": [
-        { "title": "À quelques minutes d'Amiens", "text": "Le restaurant est à Boves, dans la zone de Longueau, au 15 bis rue Michel Strogoff. On y vient en voiture depuis le centre d'Amiens en quelques minutes, et on se gare sur le grand parking devant l'entrée." },
-        { "title": "Un buffet, quatre univers", "text": "Le grill, où les viandes et les poissons sont saisis à la minute ; les sushis et les spécialités asiatiques ; les fruits de mer ; et le grand comptoir des desserts. Entre les deux, des entrées et des plats chauds qui changent selon les jours." },
-        { "title": "Midi, soir et week-end", "text": "Le buffet est servi le midi et le soir. Le prix varie selon le moment de la semaine, et les enfants ont un tarif adapté à leur âge." },
-        { "title": "Pensé pour les groupes", "text": "Anniversaires, repas de famille, sorties d'équipe : la salle accueille les grandes tablées. Réservez en précisant l'occasion, nous vous rappelons pour tout organiser." }
+        {
+          "title": "À quelques minutes d'Amiens",
+          "text": "Le restaurant est à Boves, dans la zone de Longueau, au 15 bis rue Michel Strogoff. On y vient en voiture depuis le centre d'Amiens en quelques minutes, et on se gare sur le grand parking devant l'entrée."
+        },
+        {
+          "title": "Un buffet, quatre univers",
+          "text": "Le grill, où les viandes et les poissons sont saisis à la minute ; les sushis et les spécialités asiatiques ; les fruits de mer ; et le grand comptoir des desserts. Entre les deux, des entrées et des plats chauds qui changent selon les jours."
+        },
+        {
+          "title": "Midi, soir et week-end",
+          "text": "Le buffet est servi le midi et le soir. Le prix varie selon le moment de la semaine, et les enfants ont un tarif adapté à leur âge."
+        },
+        {
+          "title": "Pensé pour les groupes",
+          "text": "Anniversaires, repas de famille, sorties d'équipe : la salle accueille les grandes tablées. Réservez en précisant l'occasion, nous vous rappelons pour tout organiser."
+        }
       ],
       "cta": "Réserver une table"
     },
@@ -276,9 +407,18 @@
         "Et comme tout le monde n'a pas les mêmes envies, le grill, les fruits de mer et les desserts sont juste à côté."
       ],
       "sections": [
-        { "title": "Le comptoir des sushis", "text": "Des plateaux de makis, california, sushis et sashimis, réassortis tout au long du service, avec sauce soja, gingembre et wasabi." },
-        { "title": "Avec tout le reste du buffet", "text": "Les sushis sont compris dans le prix du buffet, comme les grillades, les fruits de mer, les entrées, les plats chauds et les desserts." },
-        { "title": "Sushis à volonté près d'Amiens", "text": "Le restaurant se trouve à Boves, dans la zone de Longueau, à quelques minutes d'Amiens. Grand parking devant l'entrée." }
+        {
+          "title": "Le comptoir des sushis",
+          "text": "Des plateaux de makis, california, sushis et sashimis, réassortis tout au long du service, avec sauce soja, gingembre et wasabi."
+        },
+        {
+          "title": "Avec tout le reste du buffet",
+          "text": "Les sushis sont compris dans le prix du buffet, comme les grillades, les fruits de mer, les entrées, les plats chauds et les desserts."
+        },
+        {
+          "title": "Sushis à volonté près d'Amiens",
+          "text": "Le restaurant se trouve à Boves, dans la zone de Longueau, à quelques minutes d'Amiens. Grand parking devant l'entrée."
+        }
       ],
       "cta": "Réserver une table"
     },

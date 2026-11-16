@@ -1,1 +1,46 @@
-{}
+{
+ "/media/hero/hero.jpg": [
+  1600,
+  1200
+ ],
+ "/media/grill/grill.jpg": [
+  1599,
+  1200
+ ],
+ "/media/grill/grill-direct.jpg": [
+  1600,
+  1067
+ ],
+ "/media/sushis/sushis.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fruits-de-mer/fruits-de-mer.jpg": [
+  1600,
+  1067
+ ],
+ "/media/buffet/entrees.jpg": [
+  1600,
+  1067
+ ],
+ "/media/buffet/plats-chauds.jpg": [
+  1600,
+  1067
+ ],
+ "/media/desserts/desserts.jpg": [
+  1067,
+  1600
+ ],
+ "/media/desserts/desserts-enfants.jpg": [
+  1600,
+  1068
+ ],
+ "/media/salle/salle.jpg": [
+  1600,
+  1200
+ ],
+ "/media/salle/salle-groupes.jpg": [
+  1600,
+  1200
+ ]
+}

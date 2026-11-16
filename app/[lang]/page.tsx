@@ -315,11 +315,8 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <HoursTable lang={lang} d={d} className="mt-3" />
               <p className="mt-4 text-[0.8125rem] text-muted">{d.infos.hoursNote}</p>
             </div>
-            <div className="grid gap-4 md:col-span-2 lg:col-span-1">
-              <div className="relative aspect-[16/9] overflow-hidden rounded-3xl bg-white">
-                <Photo id="facade" d={d} sizes="(min-width: 1024px) 34vw, 100vw" />
-              </div>
-              <iframe title={d.infos.mapTitle} src={site.mapsEmbed} loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="aspect-[4/3] w-full rounded-3xl border-0 bg-cream-deep" />
+            <div className="md:col-span-2 lg:col-span-1">
+              <iframe title={d.infos.mapTitle} src={site.mapsEmbed} loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="aspect-[4/3] w-full rounded-3xl border-0 bg-cream-deep lg:aspect-[4/5]" />
             </div>
           </div>
         </div>

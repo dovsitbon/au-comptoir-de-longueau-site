@@ -4,7 +4,9 @@
     "description": "A big all-you-can-eat buffet in Boves, next to Longueau and Amiens: grilled-to-order meats, sushi, seafood, starters and desserts. Lunch and dinner, for families and groups. Book your table.",
     "ogAlt": "Au Comptoir de Longueau, all-you-can-eat buffet in Boves"
   },
-  "intro": { "skip": "Skip" },
+  "intro": {
+    "skip": "Skip"
+  },
   "nav": {
     "buffet": "The buffet",
     "formules": "Prices",
@@ -21,7 +23,9 @@
     "skip": "Skip to content",
     "facebook": "Au Comptoir de Longueau on Facebook"
   },
-  "announce": { "close": "Close announcement" },
+  "announce": {
+    "close": "Close announcement"
+  },
   "status": {
     "open": "Open now",
     "closed": "Closed",
@@ -62,28 +66,72 @@
   "services": {
     "title": "The essentials",
     "items": {
-      "volonte": { "title": "All you can eat", "text": "One price per person, then help yourself as many times as you like." },
-      "parking": { "title": "Large car park", "text": "Easy parking, right outside the door." },
-      "familles": { "title": "Families and groups", "text": "Long tables, birthdays, team outings: we'll seat you together." },
-      "reservation": { "title": "Booking", "text": "Online or by phone, recommended in the evening and at weekends." }
+      "volonte": {
+        "title": "All you can eat",
+        "text": "One price per person, then help yourself as many times as you like."
+      },
+      "parking": {
+        "title": "Large car park",
+        "text": "Easy parking, right outside the door."
+      },
+      "familles": {
+        "title": "Families and groups",
+        "text": "Long tables, birthdays, team outings: we'll seat you together."
+      },
+      "reservation": {
+        "title": "Booking",
+        "text": "Online or by phone, recommended in the evening and at weekends."
+      }
     }
   },
   "formules": {
     "eyebrow": "Prices",
     "title": "One price, the whole buffet",
-    "lead": "The same big buffet at every service. The price depends on the time of the week, and children pay according to their age.",
+    "lead": "The same big buffet at every service. The price depends on the time of the week, and children under 10 have their own price.",
     "perPerson": "per person",
     "from": "from",
     "onRequest": "Price on request",
     "popular": "Most popular",
-    "note": "Prices per person including VAT, full buffet, drinks extra. Prices are being updated with the restaurant.",
+    "note": "Prices per person including VAT and service, full buffet, drinks extra. Different prices on 14 February and 31 December evening.",
     "cta": "Book this service",
     "seeAll": "Prices in detail",
     "items": {
-      "midi": { "name": "Weekday lunch", "when": "Monday to Friday, 12 – 2:30 pm", "points": ["The whole buffet: starters, grill, sushi, desserts", "Ideal for a lunch break", "Quick service, back to work on time"] },
-      "soir": { "name": "Evening", "when": "Every evening, from 7 pm", "points": ["The whole buffet, seafood included", "The grill runs until closing", "Perfect with family or friends"] },
-      "weekend": { "name": "Weekends and bank holidays", "when": "Saturday, Sunday and bank holidays, lunch and dinner", "points": ["The buffet at its widest", "Booking strongly recommended", "Birthdays and big tables welcome"] },
-      "enfants": { "name": "Children", "when": "Price by age, lunch and dinner", "points": ["The same buffet as the grown-ups", "Help-yourself desserts", "High chairs on request"] }
+      "midi": {
+        "name": "Weekday lunch",
+        "when": "Monday to Friday, excluding bank holidays",
+        "points": [
+          "The whole buffet: starters, grill, sushi, desserts",
+          "Ideal for a lunch break",
+          "Quick service, back to work on time"
+        ]
+      },
+      "soir": {
+        "name": "Evening",
+        "when": "Every evening, from 7 pm",
+        "points": [
+          "The whole buffet, seafood included",
+          "The grill runs until closing",
+          "Perfect with family or friends"
+        ]
+      },
+      "weekend": {
+        "name": "Weekends and bank holidays",
+        "when": "Saturday, Sunday and bank holidays, lunch and dinner",
+        "points": [
+          "The buffet at its widest",
+          "Booking strongly recommended",
+          "Birthdays and big tables welcome"
+        ]
+      },
+      "enfants": {
+        "name": "Children",
+        "when": "Under 10, lunch and dinner",
+        "points": [
+          "The same buffet as the grown-ups",
+          "Help-yourself desserts",
+          "Proof of age may be requested"
+        ]
+      }
     }
   },
   "buffet": {
@@ -91,17 +139,44 @@
     "title": "Four worlds, one plate",
     "lead": "Walk around, try a bit of everything, go back for your favourites. Here's what's waiting for you.",
     "universes": {
-      "grill": { "title": "The grill", "text": "Meats, skewers and fish cooked to order on the griddle. You choose, we sear, you leave with a hot plate." },
-      "sushis": { "title": "Sushi", "text": "Maki, California rolls, sushi and sashimi, next to stir-fried noodles and other Asian dishes." },
-      "fruitsDeMer": { "title": "Seafood", "text": "Prawns, mussels and shellfish, cold or cooked, for those who like to start with the sea." },
-      "desserts": { "title": "Desserts", "text": "Cakes, fruit, creams and ice cream: the kids' favourite counter, and often the parents' too." }
+      "grill": {
+        "title": "The grill",
+        "text": "Meats, skewers and fish cooked to order on the griddle. You choose, we sear, you leave with a hot plate."
+      },
+      "sushis": {
+        "title": "Sushi",
+        "text": "Maki, California rolls, sushi and sashimi, next to stir-fried noodles and other Asian dishes."
+      },
+      "fruitsDeMer": {
+        "title": "Seafood",
+        "text": "Prawns, mussels and shellfish, cold or cooked, for those who like to start with the sea."
+      },
+      "desserts": {
+        "title": "Desserts",
+        "text": "Cakes, fruit, creams and ice cream: the kids' favourite counter, and often the parents' too."
+      }
     },
     "also": "Also: a big counter of starters, crudités and salads, and hot dishes that change from day to day."
   },
   "blocks": {
-    "grill": { "eyebrow": "Live grill", "title": "Cooked in front of you, served piping hot", "text": "Nothing waits under a heat lamp at the grill. Point to what you fancy, the cook sears it on the griddle and hands it over a few minutes later.", "cta": "See the buffet" },
-    "groups": { "eyebrow": "Birthdays and groups", "title": "Big tables are what we do every day", "text": "Birthdays, family meals, end-of-year dinners with colleagues: the dining room is large and we set your table in advance. Let us know, we'll take care of the rest.", "cta": "Book" },
-    "kids": { "eyebrow": "Children", "title": "Everyone fills their own plate", "text": "Children love choosing for themselves, from the grill to the desserts. A price adapted to their age, and high chairs for the little ones.", "cta": "See prices" }
+    "grill": {
+      "eyebrow": "Live grill",
+      "title": "Cooked in front of you, served piping hot",
+      "text": "Nothing waits under a heat lamp at the grill. Point to what you fancy, the cook sears it on the griddle and hands it over a few minutes later.",
+      "cta": "See the buffet"
+    },
+    "groups": {
+      "eyebrow": "Birthdays and groups",
+      "title": "Big tables are what we do every day",
+      "text": "Birthdays, family meals, end-of-year dinners with colleagues: the dining room is large and we set your table in advance. Let us know, we'll take care of the rest.",
+      "cta": "Book"
+    },
+    "kids": {
+      "eyebrow": "Children",
+      "title": "Everyone fills their own plate",
+      "text": "Children love choosing for themselves, from the grill to the desserts. Under 10s have their own price, lunch and dinner.",
+      "cta": "See prices"
+    }
   },
   "reviews": {
     "eyebrow": "Reviews",
@@ -109,7 +184,14 @@
     "count": "from over {count} Google reviews",
     "checked": "Rating checked on {date}",
     "themesTitle": "What our guests mention most",
-    "themes": ["The choice", "The starters", "The sushi", "The seafood", "All you can eat", "The friendly canteen feel"],
+    "themes": [
+      "The choice",
+      "The starters",
+      "The sushi",
+      "The seafood",
+      "All you can eat",
+      "The friendly canteen feel"
+    ],
     "cta": "Read the reviews on Google"
   },
   "infos": {
@@ -125,19 +207,45 @@
     "parking": "Parking",
     "parkingText": "Large free car park in front of the restaurant.",
     "mapTitle": "Map: Au Comptoir de Longueau, 15 bis rue Michel Strogoff, Boves",
-    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
     "closed": "Closed"
   },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Before you come",
     "items": [
-      { "q": "Do I need to book?", "a": "It's not compulsory, but it's recommended in the evening and at weekends, and essential for groups. Book online or call +33 9 54 66 98 88." },
-      { "q": "What are your opening hours?", "a": "We serve lunch from 12 to 2:30 pm and dinner from 7 pm. Today's hours and whether we're open right now are shown live on this page." },
-      { "q": "How much is the buffet for a child?", "a": "Children get a reduced price based on their age. See the Prices section for details." },
-      { "q": "Can we come as a group of 15 or 20 for a birthday?", "a": "Yes, it's something we do all the time. Mention the occasion and the number of guests in the form, and we'll call you back to organise your table." },
-      { "q": "Which payment methods do you accept?", "a": "Card and cash. For meal vouchers and Chèques-Vacances, please ask at the front desk or by phone." },
-      { "q": "I have an allergy, what should I do?", "a": "Tell the team when you arrive and we'll point out the dishes concerned. The allergen list is available on request." }
+      {
+        "q": "Do I need to book?",
+        "a": "It's not compulsory, but it's recommended in the evening and at weekends, and essential for groups. Book online or call +33 9 54 66 98 88."
+      },
+      {
+        "q": "What are your opening hours?",
+        "a": "We serve lunch from 12 to 2:30 pm and dinner from 7 pm. Today's hours and whether we're open right now are shown live on this page."
+      },
+      {
+        "q": "How much is the buffet for a child?",
+        "a": "The buffet is €12.90 for children under 10, lunch and dinner, with proof of age. See the Prices section for details."
+      },
+      {
+        "q": "Can we come as a group of 15 or 20 for a birthday?",
+        "a": "Yes, it's something we do all the time. Mention the occasion and the number of guests in the form, and we'll call you back to organise your table."
+      },
+      {
+        "q": "Which payment methods do you accept?",
+        "a": "Card and cash. For meal vouchers and Chèques-Vacances, please ask at the front desk or by phone."
+      },
+      {
+        "q": "I have an allergy, what should I do?",
+        "a": "Tell the team when you arrive and we'll point out the dishes concerned. The allergen list is available on request."
+      }
     ]
   },
   "book": {
@@ -147,16 +255,26 @@
     "date": "Date",
     "chooseDate": "Choose a date",
     "service": "Service",
-    "services": { "midi": "Lunch", "soir": "Dinner" },
+    "services": {
+      "midi": "Lunch",
+      "soir": "Dinner"
+    },
     "time": "Arrival time",
     "chooseTime": "Choose a time",
     "noTimes": "No more times for this service that day. Try the other service or another day.",
     "noService": "No service that day",
     "adults": "Adults",
     "children": "Children",
-    "childrenHint": "under 12",
+    "childrenHint": "under 10",
     "occasion": "Occasion",
-    "occasions": { "none": "No special occasion", "family": "Family meal", "birthday": "Birthday", "friends": "With friends", "company": "Work meal", "other": "Other" },
+    "occasions": {
+      "none": "No special occasion",
+      "family": "Family meal",
+      "birthday": "Birthday",
+      "friends": "With friends",
+      "company": "Work meal",
+      "other": "Other"
+    },
     "message": "Message",
     "messagePh": "High chair, birthday cake, allergy, quiet table…",
     "name": "Name",
@@ -218,20 +336,21 @@
       "salle": "The dining room",
       "salle-groupes": "A big table",
       "facade": "The front of the restaurant"
-    }
+    },
+    "illustration": "Illustrative photo"
   },
   "alt": {
-    "hero": "The large dining room and buffet at Au Comptoir de Longueau",
-    "grill": "Meats and skewers seared on the grill",
-    "grill-direct": "The cook searing a plate at the grill in front of guests",
-    "sushis": "Trays of sushi and maki on the buffet",
-    "fruits-de-mer": "Prawns and shellfish on the seafood buffet",
-    "entrees": "The starters and salads counter",
-    "plats-chauds": "Hot dishes on the buffet",
-    "desserts": "Cakes, fruit and desserts on the buffet",
-    "desserts-enfants": "The desserts and ice cream counter",
-    "salle": "The restaurant's dining room",
-    "salle-groupes": "A long table set for a group",
+    "hero": "The large dining room at Au Comptoir de Longueau with chandeliers and string lights",
+    "grill": "The restaurant's hot buffet under copper lamps: sausages, meats and sides",
+    "grill-direct": "Meat skewers seared on a grill",
+    "sushis": "Assorted sushi, sashimi and maki",
+    "fruits-de-mer": "Oysters, prawns and lemon on ice",
+    "entrees": "A plate of mixed salad",
+    "plats-chauds": "A hot dish in a buffet chafing dish",
+    "desserts": "Assorted small desserts on a buffet",
+    "desserts-enfants": "Trays of colourful ice cream",
+    "salle": "The dining room at Au Comptoir de Longueau, wooden tables and chairs",
+    "salle-groupes": "The restaurant's large dining room, ready for big tables",
     "facade": "The front and entrance of the restaurant"
   },
   "footer": {
@@ -259,10 +378,22 @@
         "You pay one price per person, then help yourself as often as you like. Simple and generous, which is why families and groups keep coming back."
       ],
       "sections": [
-        { "title": "A few minutes from Amiens", "text": "The restaurant is in Boves, in the Longueau area, at 15 bis rue Michel Strogoff. It's a short drive from central Amiens, with a large car park at the entrance." },
-        { "title": "One buffet, four worlds", "text": "The grill, where meats and fish are seared to order; sushi and Asian dishes; seafood; and the big dessert counter. In between, starters and hot dishes that change from day to day." },
-        { "title": "Lunch, dinner and weekends", "text": "The buffet is served at lunch and dinner. The price depends on the time of the week, and children have a price adapted to their age." },
-        { "title": "Made for groups", "text": "Birthdays, family meals, team outings: the dining room welcomes big tables. Book and mention the occasion, and we'll call you back to arrange everything." }
+        {
+          "title": "A few minutes from Amiens",
+          "text": "The restaurant is in Boves, in the Longueau area, at 15 bis rue Michel Strogoff. It's a short drive from central Amiens, with a large car park at the entrance."
+        },
+        {
+          "title": "One buffet, four worlds",
+          "text": "The grill, where meats and fish are seared to order; sushi and Asian dishes; seafood; and the big dessert counter. In between, starters and hot dishes that change from day to day."
+        },
+        {
+          "title": "Lunch, dinner and weekends",
+          "text": "The buffet is served at lunch and dinner. The price depends on the time of the week, and children have a price adapted to their age."
+        },
+        {
+          "title": "Made for groups",
+          "text": "Birthdays, family meals, team outings: the dining room welcomes big tables. Book and mention the occasion, and we'll call you back to arrange everything."
+        }
       ],
       "cta": "Book a table"
     },
@@ -276,9 +407,18 @@
         "And since not everyone wants the same thing, the grill, seafood and desserts are right next to it."
       ],
       "sections": [
-        { "title": "The sushi counter", "text": "Trays of maki, California rolls, sushi and sashimi, refilled throughout service, with soy sauce, ginger and wasabi." },
-        { "title": "With the rest of the buffet", "text": "Sushi is included in the buffet price, along with grilled meats, seafood, starters, hot dishes and desserts." },
-        { "title": "All-you-can-eat sushi near Amiens", "text": "The restaurant is in Boves, in the Longueau area, a few minutes from Amiens. Large car park at the entrance." }
+        {
+          "title": "The sushi counter",
+          "text": "Trays of maki, California rolls, sushi and sashimi, refilled throughout service, with soy sauce, ginger and wasabi."
+        },
+        {
+          "title": "With the rest of the buffet",
+          "text": "Sushi is included in the buffet price, along with grilled meats, seafood, starters, hot dishes and desserts."
+        },
+        {
+          "title": "All-you-can-eat sushi near Amiens",
+          "text": "The restaurant is in Boves, in the Longueau area, a few minutes from Amiens. Large car park at the entrance."
+        }
       ],
       "cta": "Book a table"
     },
