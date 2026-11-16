@@ -44,7 +44,7 @@ function Hero({ d, lang }: { d: Dict; lang: Locale }) {
         {photo ? (
           <>
             <Image src={photo.src} alt={d.alt.hero} fill priority sizes="100vw" quality={80} className="object-cover" />
-            <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(26,26,26,0.82),rgba(26,26,26,0.25)_55%,rgba(26,26,26,0.1))]" aria-hidden="true" />
+            <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(26,26,26,0.88),rgba(26,26,26,0.62)_55%,rgba(26,26,26,0.35)),linear-gradient(to_top,rgba(26,26,26,0.7),transparent_45%)]" aria-hidden="true" />
           </>
         ) : (
           <>
